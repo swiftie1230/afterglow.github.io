@@ -10,8 +10,8 @@ categories: jekyll update
 
 ℙ𝕣𝕠𝕘𝕣𝕒𝕞𝕞𝕚𝕟𝕘 𝕊𝕥𝕦𝕕𝕪✔️
 - 베어유 19강 수강 + 출첵]
-- * 예외처리 (JAVA -try&catch/ 파이썬 - try&except:)
-- * 슬립(지연) -JAVA : try(Thread.sleep(1000)) / 파이썬 : Time.sleep(2) 베어유 6강 복습 (문자열과 문자형/ 함수(메소드/method) - 파이썬은 그냥 def로)
+  * 예외처리 (JAVA -try&catch/ 파이썬 - try&except:)
+  * 슬립(지연) -JAVA : try(Thread.sleep(1000)) / 파이썬 : Time.sleep(2) 베어유 6강 복습 (문자열과 문자형/ 함수(메소드/method) - 파이썬은 그냥 def로)
 - 자료구조 Assignment] Doubly Linked list 구상하기
 
 𝕆𝕥𝕙𝕖𝕣 𝕊𝕥𝕦𝕕𝕪✔️
@@ -24,8 +24,8 @@ categories: jekyll update
 - 블루레몬에이드 사서 마셔보기 😊
 
 오늘의 나는 여기서 끝 !
-
 -
+
 요즘 빡공단에서의 베어유 강의를 들으면서 꽤 많이 배우는 것 같은 느낌이 든다.   
 물론 짧은 강의라 간단한 내용이지만 학교에서 C언어로 이미 배우고, 또 지금도 활용하고 있는 내용을 JAVA와 파이썬 언어로 또 배우는 것이다 보니 뭔가 신기하기도 하고 머리에 잘 들어온달까…? 🤔
 
