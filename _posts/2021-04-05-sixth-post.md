@@ -35,7 +35,7 @@ categories: jekyll update
 
 - 자료구조 5주차 강의 수강 + 정리
 
-
+<img width="818" alt="스크린샷 2021-04-05 오후 9 58 52" src="https://user-images.githubusercontent.com/63195670/113576607-d0d86e00-965a-11eb-95e5-d1aaaa00e16a.png">
 
 - Back-end 스터디.         
        * Trend Of Web.    
