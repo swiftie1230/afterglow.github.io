@@ -23,7 +23,7 @@ categories: jekyll update
 - {초급자바스터디} JAVA 강의 변수 수강].   
        *변수 선언&초기화 + 메모리 할당&진법 + 변수 데이터 변경
 
-- {초급자바스터디} JAVA 코드 정리해서 공용 레퍼지토리에 submit
+- {초급자바스터디} JAVA 코드 정리해서 공용 레퍼지토리에 submit -> 하려 했는데 아직 만들어지지 않은 관계로 코드 정리해서 메모에 저장!
 
 ![IMG_9822](https://user-images.githubusercontent.com/63195670/113575884-8c000780-9659-11eb-9ca9-fb40d6a5b519.jpg)
 
