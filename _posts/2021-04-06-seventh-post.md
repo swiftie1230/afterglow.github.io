@@ -19,12 +19,12 @@ categories: TIL
                          Select 후 찾은 결과 : Result set.   
       * 그래픽 화면의 이해 : user friendly/event &위치 중요/픽셀 단위.   
  
-- 베어유 9강 복습] 
+- 베어유 9강 복습]     
       * 2개 이상 조건문 (&& / ||) (and/or)
 
 ![IMG_9850](https://user-images.githubusercontent.com/63195670/113689844-b5766d00-9705-11eb-9257-81260b2bd208.jpg){: width="60%" height="60%"}
 
-- {초급자바스터디} JAVA 강의 기본자료형 수강]
+- {초급자바스터디} JAVA 강의 기본자료형 수강].   
       * 기본자료형과 객체자료형 + JAVA 기본자료형 + 형 변환
 
 ![IMG_9855](https://user-images.githubusercontent.com/63195670/113691122-15214800-9707-11eb-859b-aab05ec531e8.jpg){: width="60%" height="60%"}
