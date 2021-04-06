@@ -1,6 +1,6 @@
 ---
 
 layout: category
-title: 초급 JAVA 스터디
+title: 초급JAVA스터디
 
 ---
