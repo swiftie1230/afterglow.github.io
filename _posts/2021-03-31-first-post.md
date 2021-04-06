@@ -1,7 +1,9 @@
 ---
+
 title: "[21.03.31] TIL"
 date: 2021-03-31 08:06:28 -0400
-categories: jekyll update
+categories: TIL
+
 ---
 [21.03.31]
 
