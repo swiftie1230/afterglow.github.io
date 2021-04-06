@@ -1,7 +1,7 @@
 ---
 title: "[21.04.04] TIL"
 date: 2021-04-04 06:20:28 -0400
-categories: jekyll update
+categories: TIL
 ---
 
 [21.04.04]
