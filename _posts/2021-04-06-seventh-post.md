@@ -12,13 +12,13 @@ categories: TIL
 
 ![IMG_9848](https://user-images.githubusercontent.com/63195670/113689839-b4ddd680-9705-11eb-82b3-4dea1a1ea118.jpg){: width="60%" height="60%"}
 
-- 베어유 21강+22강 수강까지 드디어 완강! + 출첵]
-      * 데이터 베이스 : RDB (관계형데이터베이스)
-      * 기본 SQL : 구조화된 질문언어[데이터베이스와의 대화언어]
-                         Select/Delete/Update/Insert,  * : 전체 의미
-                         Select 후 찾은 결과 : Result set
-      * 그래픽 화면의 이해 : user friendly/event &위치 중요/픽셀 단위
-
+- 베어유 21강+22강 수강까지 드디어 완강! + 출첵].   
+      * 데이터 베이스 : RDB (관계형데이터베이스).   
+      * 기본 SQL : 구조화된 질문언어[데이터베이스와의 대화언어].   
+                         Select/Delete/Update/Insert,  * : 전체 의미.   
+                         Select 후 찾은 결과 : Result set.   
+      * 그래픽 화면의 이해 : user friendly/event &위치 중요/픽셀 단위.   
+ 
 - 베어유 9강 복습] 
       * 2개 이상 조건문 (&& / ||) (and/or)
 
@@ -43,7 +43,7 @@ categories: TIL
 
 - 백준 단계별 문제 풀고 풀이 업로드 
   
- [백준 단계별 문제 풀이](https://swiftie1230.github.io/%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-10757%EB%B2%88/)
+  [백준 단계별 문제 풀이](https://swiftie1230.github.io/%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-10757%EB%B2%88/)
 
 - 초급 JAVA 스터디 지금까지 학습 내용과 코드 정리한 것 업로드
 
