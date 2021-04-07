@@ -41,8 +41,10 @@ categories: TIL
   [백준 단계별 문제 풀이](https://swiftie1230.github.io/%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-1011%EB%B2%88/)
 
 - 초급 JAVA 스터디 오늘 학습 내용과 코드 정리한 것 업로드
-
-[초급 JAVA 스터디 학습 내용과 코드 정리]
+  
+  [초급 JAVA 스터디 오늘 학습 내용 정리](https://swiftie1230.github.io/%EC%B4%88%EA%B8%89java%EC%8A%A4%ED%84%B0%EB%94%94/%EC%B4%88%EA%B8%89-JAVA-%ED%8A%B9%EC%88%98%EB%AC%B8%EC%9E%90%EC%99%80-%EC%84%9C%EC%8B%9D%EB%AC%B8%EC%9E%90-%ED%95%99%EC%8A%B5-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC/)
+  
+  [초급 JAVA 스터디 오늘 학습 코드](https://swiftie1230.github.io/%EC%B4%88%EA%B8%89java%EC%8A%A4%ED%84%B0%EB%94%94/%EC%B4%88%EA%B8%89-JAVA-%ED%8A%B9%EC%88%98%EB%AC%B8%EC%9E%90%EC%99%80-%EC%84%9C%EC%8B%9D%EB%AC%B8%EC%9E%90-%ED%95%99%EC%8A%B5-%EC%BD%94%EB%93%9C/)
 
 
 # 𝕄𝕪 𝕆𝕨𝕟✔️
