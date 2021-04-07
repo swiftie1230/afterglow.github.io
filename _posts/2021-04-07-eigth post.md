@@ -38,7 +38,7 @@ categories: TIL
 
 - 백준 단계별 문제 풀고 풀이 업로드 
 
-[백준 단계별 문제 풀이](https://swiftie1230.github.io/%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-1011%EB%B2%88/)
+  [백준 단계별 문제 풀이](https://swiftie1230.github.io/%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-1011%EB%B2%88/)
 
 - 초급 JAVA 스터디 오늘 학습 내용과 코드 정리한 것 업로드
 
