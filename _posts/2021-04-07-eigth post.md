@@ -13,13 +13,19 @@ categories: TIL
 
 - 베어유 10강 복습] 
       *조건 안에 조건문이 있을 때 (else if, elif)
+      
+![IMG_9866](https://user-images.githubusercontent.com/63195670/113872160-99022f80-97ee-11eb-8278-797bf837002d.jpg)
 
 - {초급자바스터디} JAVA 강의 특수문자와 서식문자 수강]
       *특수문자 + 서식문자 + 서식문자의 정렬과 소수점 제한 기능
 
+![IMG_9867](https://user-images.githubusercontent.com/63195670/113872177-9d2e4d00-97ee-11eb-9123-ecdee4bcb862.jpg)
+
 - {초급자바스터디} JAVA 코드 정리해서 공용 레퍼지토리에 submit
 
 - [학교수업] 자료구조 화상강의 + 퀴즈
+
+<img width="868" alt="2021-04-07_7 39 33" src="https://user-images.githubusercontent.com/63195670/113872172-9b648980-97ee-11eb-9022-30cb09ab54d2.PNG">
 
 - {알고리즘활용(코테) 스터디} HashTable 공부 + 직접 구현해 보기
 
@@ -32,7 +38,11 @@ categories: TIL
 
 - 백준 단계별 문제 풀고 풀이 업로드 
 
+[백준 단계별 문제 풀이](https://swiftie1230.github.io/%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-1011%EB%B2%88/)
+
 - 초급 JAVA 스터디 오늘 학습 내용과 코드 정리한 것 업로드
+
+[초급 JAVA 스터디 학습 내용과 코드 정리]
 
 
 # 𝕄𝕪 𝕆𝕨𝕟✔️
