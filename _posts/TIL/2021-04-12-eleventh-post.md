@@ -36,9 +36,9 @@ categories: TIL
 
 - 초급 JAVA 스터디 오늘 학습 내용과 코드 정리한 것 Git 블로그에 업로드   
 
- [초급 JAVA 오늘 학습 내용 정리](https://swiftie1230.github.io/%EC%B4%88%EA%B8%89java%EC%8A%A4%ED%84%B0%EB%94%94/%EC%B4%88%EA%B8%89-JAVA-%EB%B0%B0%EC%97%B4%EA%B3%BC-%EB%A9%94%EB%AA%A8%EB%A6%AC-%ED%95%99%EC%8A%B5-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC/)   
+  [초급 JAVA 오늘 학습 내용 정리](https://swiftie1230.github.io/%EC%B4%88%EA%B8%89java%EC%8A%A4%ED%84%B0%EB%94%94/%EC%B4%88%EA%B8%89-JAVA-%EB%B0%B0%EC%97%B4%EA%B3%BC-%EB%A9%94%EB%AA%A8%EB%A6%AC-%ED%95%99%EC%8A%B5-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC/)   
 
- [초급 JAVA 오늘 학습 코드](https://swiftie1230.github.io/%EC%B4%88%EA%B8%89java%EC%8A%A4%ED%84%B0%EB%94%94/%EC%B4%88%EA%B8%89-JAVA-%EB%B0%B0%EC%97%B4%EA%B3%BC-%EB%A9%94%EB%AA%A8%EB%A6%AC-%ED%95%99%EC%8A%B5-%EC%BD%94%EB%93%9C/)
+  [초급 JAVA 오늘 학습 코드](https://swiftie1230.github.io/%EC%B4%88%EA%B8%89java%EC%8A%A4%ED%84%B0%EB%94%94/%EC%B4%88%EA%B8%89-JAVA-%EB%B0%B0%EC%97%B4%EA%B3%BC-%EB%A9%94%EB%AA%A8%EB%A6%AC-%ED%95%99%EC%8A%B5-%EC%BD%94%EB%93%9C/)
 
 # 𝕄𝕪 𝕆𝕨𝕟✔️
 
