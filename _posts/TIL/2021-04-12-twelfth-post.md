@@ -29,14 +29,14 @@ categories: TIL
 
 # 𝔾𝕚𝕥ℍ𝕦𝕓✔️
 
-- 백준 소인수분해 문제 풀이 Git 블로그에 업로드
+- 백준 소인수분해 문제 풀이 Git 블로그에 업로드    
   [백준 소인수분해 문제 풀이](https://swiftie1230.github.io/%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-11653%EB%B2%88/)
-- 초급 JAVA 스터디 오늘 학습 내용과 코드 정리한 것 Git 블로그에 업로드
-  [초급 JAVA 스터디 오늘 학습 내용 정리](https://swiftie1230.github.io/%EC%B4%88%EA%B8%89java%EC%8A%A4%ED%84%B0%EB%94%94/%EC%B4%88%EA%B8%89-JAVA-%EC%A1%B0%EA%B1%B4%EB%AC%B8-%ED%95%99%EC%8A%B5-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC/)
-  [초급 JAVA 스터디 오늘 학습 코드](https://swiftie1230.github.io/%EC%B4%88%EA%B8%89java%EC%8A%A4%ED%84%B0%EB%94%94/%EC%B4%88%EA%B8%89-JAVA-%EC%A1%B0%EA%B1%B4%EB%AC%B8-%ED%95%99%EC%8A%B5-%EC%BD%94%EB%93%9C/)
-- HASHTABLE 조건에 맞게 푼 풀이로 수정해서 업로드 
-  [HASHTABLE 수정 풀이](https://swiftie1230.github.io/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%ED%99%9C%EC%9A%A9%EC%8A%A4%ED%84%B0%EB%94%94/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%ED%99%9C%EC%9A%A9-HashTable-%ED%8C%8C%ED%8A%B8%EB%84%88%EB%8B%98-%EB%AC%B8%EC%A0%9C/)
-- HASHTABLE 정리 업로드
+- 초급 JAVA 스터디 오늘 학습 내용과 코드 정리한 것 Git 블로그에 업로드    
+  [초급 JAVA 스터디 오늘 학습 내용 정리](https://swiftie1230.github.io/%EC%B4%88%EA%B8%89java%EC%8A%A4%ED%84%B0%EB%94%94/%EC%B4%88%EA%B8%89-JAVA-%EC%A1%B0%EA%B1%B4%EB%AC%B8-%ED%95%99%EC%8A%B5-%EB%82%B4%EC%9A%A9-%EC%A0%95%EB%A6%AC/)    
+  [초급 JAVA 스터디 오늘 학습 코드](https://swiftie1230.github.io/%EC%B4%88%EA%B8%89java%EC%8A%A4%ED%84%B0%EB%94%94/%EC%B4%88%EA%B8%89-JAVA-%EC%A1%B0%EA%B1%B4%EB%AC%B8-%ED%95%99%EC%8A%B5-%EC%BD%94%EB%93%9C/)    
+- HASHTABLE 조건에 맞게 푼 풀이로 수정해서 업로드     
+  [HASHTABLE 수정 풀이](https://swiftie1230.github.io/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%ED%99%9C%EC%9A%A9%EC%8A%A4%ED%84%B0%EB%94%94/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%ED%99%9C%EC%9A%A9-HashTable-%ED%8C%8C%ED%8A%B8%EB%84%88%EB%8B%98-%EB%AC%B8%EC%A0%9C/)    
+- HASHTABLE 정리 업로드    
   [HASHTABLE 정리](https://swiftie1230.github.io/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%ED%99%9C%EC%9A%A9%EC%8A%A4%ED%84%B0%EB%94%94/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%ED%99%9C%EC%9A%A9-HASH-TABLE-%EC%A0%95%EB%A6%AC/)
 
 # 𝕄𝕪 𝕆𝕨𝕟✔️
