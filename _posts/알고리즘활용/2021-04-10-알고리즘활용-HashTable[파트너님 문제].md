@@ -41,7 +41,7 @@ participant는 hash_table에 insert하고, completion은 delete한다.
 마지막으로 최종 hash_table에 남은 이름을 return하는 solution함수를 정의해서 main함수에서 출력하면 끝!
 
 ## 내 코드
-		#include <stdlib.h>
+	#include <stdlib.h>
 	#include <stdio.h>
 	#include <string.h>
 	#include<stdint.h>
@@ -149,4 +149,4 @@ participant는 hash_table에 insert하고, completion은 delete한다.
 	    return 0;
 	}
 	
-	빌드 성공! 
+빌드 성공! 
