@@ -28,28 +28,39 @@ completion의 길이는 participant의 길이보다 1 작습니다.
 
  
 ## 내 코드 설명
-두개의 배열을 받고 완주하지 못한 선수의 이름을 return하는 함수인 solution 함수를 만들기 위해 시도했지만 자꾸 오류가 떴다.        
-C언어로는 확실히 구현이 어려운 문제인 것 같다. ㅜㅜ
+hash_table을 만드는데 아무래도 구조체가 편리해서 구조체 배열을 만들어서 해결해 봤다.
 
-그래서 HashTable을 만들고, 배열 participant의 값들을 `hash_table_insert` 함수에, completion의 값들을 `hash_table_delete` 함수에 각각 넣은 후, hashtable에 남아있는 이름을 출력하는 식으로 문제를 바꾸어 풀어보았다.
-	
-	#include<stdio.h>
-	#include<string.h>
+scanf로 참가한 선수의 수를 받고, 그 입력받은 수를 바탕으로 구조체 배열 participant(크기 N)와 completion(크기 N-1) 두개를 만든 후,
+“몇 번째 참가한 선수의 이름을 입력하세요 : “
+를 통해 참가한 선수 이름을 입력받아서 participant 구조체 배열에 넣는다.    
+동일하게
+“완주한 선수의 이름을 입력하세요:”
+라는 문구로 완주한 선수 이름을 입력받아서 completion 구조체 배열에 넣는다.
+
+participant는 hash_table에 insert하고, completion은 delete한다. 
+마지막으로 최종 hash_table에 남은 이름을 return하는 solution함수를 정의해서 main함수에서 출력하면 끝!
+
+## 내 코드
+		#include <stdlib.h>
+	#include <stdio.h>
+	#include <string.h>
+	#include<stdint.h>
 	#include<stdbool.h>
+	 
+	#define MAX_NAME 21
+	#define TABLE_SIZE 100001
 	
-	#define TABLE_SIZE 100001 //문제에서 참가 선수가 100000명 이하라고 했으므로
-	#define MAX_NAME 21 //참가자의 이름이 20개 이하라고 했으므로
-	
-	//person 구조체에 이름을 저장
+	//받을 정보인 person을 struct 구조에 저장! name 그리고 external chaining 방식으로 collision을 handle하기 때문에 다음 연결된 person을 가리키는 포인터 next도 포함하고 있다.
 	typedef struct person{
 	    char name[MAX_NAME];
+	    struct person *next;
 	}person;
 	
-	//person을 반환값으로 하는 hash_table 선언
+	//hash table 선언
 	person * hash_table[TABLE_SIZE];
 	
-	//hash 함수 정의! 
-	unsigned int hash(char *name){
+	//person의 name을 입력값으로 받아서 해시하고, 그 해시값을 반환하는 hash_with_name 함수를 정의했다.
+	unsigned int hash_with_name(char *name){
 	    int length = strnlen(name, MAX_NAME);
 	    unsigned int hash_value = 0;
 	    for (int i=0; i < length; i++){
@@ -60,59 +71,82 @@ C언어로는 확실히 구현이 어려운 문제인 것 같다. ㅜㅜ
 	    return hash_value;
 	}
 	
-	//insert 함수 정의!
+	
+	//person 구조체의 포인터를 입력값으로 받아서 hash_table에 insert하는 함수이다.
 	bool hash_table_insert(person *p){
 	    if (p == NULL) return false;
-	    int index = hash(p->name);
+	    int index = hash_with_name(p->name); //hash_with_names(p->name)를 통해 나온 값을 index로 사용!
+	    p->next = hash_table[index]; //add the person to the front of the list
 	    hash_table[index] = p;
 	    return true;
 	}
 	
-	//delete 함수 정의!
-	person *hash_table_delete(char *name){
-	    int index = hash(name);
-	    if(hash_table[index] != NULL && strncmp(hash_table[index]->name, name, TABLE_SIZE)== 0){
-	        person *tmp = hash_table[index];
-	        hash_table[index] = NULL;
-	        return tmp; //return the pointer that we saved to the caller, so the caller can free the pointer
+	//해시 테이블에서 우리가 찾는 값이 헤시테이블에 존재하는지를 알기 위해 name을 입력값으로 하는 hash_table_lookup_with_name 함수를 정의했다. 만약 있다면 "Found (입력된 name)." 존재하지 않는다면 "Not found"를 출력한다.
+	void hash_table_lookup_with_name(char *name){
+	    int index = hash_with_name(name);
+	    person *tmp = hash_table[index];
+	    while(tmp != NULL && strncmp(tmp->name, name, MAX_NAME)!=0){
+	        tmp = tmp->next;
 	    }
-	    else{
-	        return NULL;
-	    }
+	    if (tmp == NULL)
+	        printf("Not found!\n");
+	    else
+	        printf("Found %s.\n", tmp->name);
 	}
 	
-	//hash_table에 남아있는 값을 출력하는 solution함수 정의!
-	void solution(){
+	//해시테이블에서 우리가 원하는 값을 해시테이블에서 삭제하기 위해 name을 입력값으로 하는 hash_table_delete 함수를 정의했다.
+	person *hash_table_delete(char *name){
+	    int index = hash_with_name(name);
+	    person *tmp = hash_table[index];
+	    person *prev = NULL;
+	    while(tmp != NULL && strncmp(tmp->name, name, MAX_NAME)!=0){
+	        prev = tmp;
+	        tmp = tmp->next;
+	    }
+	    if(tmp == NULL) return NULL; //We didn't find a match.
+	    if(prev == NULL){
+	        //the match that we should be deleting is the head
+	        hash_table[index] = tmp->next;
+	    }
+	    else{
+	        prev->next = tmp -> next;
+	    }
+	     return tmp;
+	    }
+	
+	char * solution(){
+	    char * sol = 0;
 	    for(int i = 0; i<TABLE_SIZE;i++){
 	        person *tmp = hash_table[i];
 	        if(hash_table[i] != NULL){
-	            printf("완주하지 못한 선수는 %s입니다.\n", tmp->name);
+	            sol = tmp->name;
 	        }
 	    }
-	    return;
+	    return sol;
 	}
-	
+		
 	int main(){
-	    //값들 입력
-	    person marina = {.name="marina"};
-	    person josipa = {.name ="josipa"};
-	    person nikola = {.name ="nikola"};
-	    person vinko = {.name ="vinko"};
-	    person filipa = {.name ="filipa"};
+	    int N;
+	    scanf("%d",&N);
 	    
-	    hash_table_insert(&marina);
-	    hash_table_insert(&josipa);
-	    hash_table_insert(&nikola);
-	    hash_table_insert(&filipa);
-	    hash_table_insert(&vinko);
+	    person participant[N];
+	    person completion[N-1];
 	    
-	    hash_table_delete("marina");
-	    hash_table_delete("josipa");
-	    hash_table_delete("nikola");
-	    hash_table_delete("filipa");
+	    for(int i=0;i<N;i++){
+	        printf("%d번째 참가한 선수의 이름을 입력하세요: ",i+1);
+	        scanf("%s", participant[i].name);
+	        hash_table_insert(&participant[i]);
+	    }
 	    
-	    //solution함수를 돌린다.
-	    solution();
+	    for(int j=0;j<N-1;j++){
+	        printf("완주한 선수의 이름을 입력하세요: ");
+	        scanf("%s", completion[j].name);
+	        hash_table_delete(completion[j].name);
+	    }
+		
+	    printf("완주하지 못한 선수는 %s입니다", solution());
+		
+	    return 0;
 	}
 	
 	빌드 성공! 
