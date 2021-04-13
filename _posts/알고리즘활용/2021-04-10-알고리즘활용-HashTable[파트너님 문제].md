@@ -149,4 +149,6 @@ participant는 hash_table에 insert하고, completion은 delete한다.
 	    return 0;
 	}
 	
+<img width="384" alt="스크린샷 2021-04-13 오후 2 13 47" src="https://user-images.githubusercontent.com/63195670/114506359-a2ffb480-9c6c-11eb-8f70-099379acb4b6.png">
+  
 빌드 성공! 
