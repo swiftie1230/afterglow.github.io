@@ -10,7 +10,7 @@ categories: TIL
 
 # ℙ𝕣𝕠𝕘𝕣𝕒𝕞𝕞𝕚𝕟𝕘 𝕊𝕥𝕦𝕕𝕪✔️
 
-- [자료구조 시험공부]: 중간고사 범위까지 끝내기 - 5,6주차 복습 + 정리
+- [자료구조 시험공부] 중간고사 범위까지 끝내기 - 5,6주차 복습 + 정리
      * Linked List, Tree, Binary Tree representation by Linked List / Priority Queue
 
 # 𝕆𝕥𝕙𝕖𝕣 𝕊𝕥𝕦𝕕𝕪✔️
