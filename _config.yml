@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "AfterGlow"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "새라"
+name                     : "다솜"
 description              : "My one-and-only Memorable moment storage"
 url                      : "https://swiftie1230.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
