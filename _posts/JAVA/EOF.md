@@ -1,0 +1,53 @@
+---
+title: "JAVA - EOF”
+date: 2021-04-29 12:50:28 -0400
+categories: 초급JAVA스터디
+---
+
+
+# JAVA EOF
+
+컴퓨팅에서, 파일 끝 (End Of File, EOF)는 데이터 소스로부터 더 이상 읽을 수 있는 데이터가 없음을 나타낸다.
+
+즉, EOF는 입력 부분의 기준이 없을 때 이용한다.      
+
+
+입력 클래스는 Scanner, BufferedReader 두가지로 구성되는데, 각각의 EOF 처리 방법은 다음과 같다.
+
+
+## Scanner
+
+	Scanner sc = new Scanner(System.in);
+	
+	
+	while(sc.hasNextLine()) {
+	
+	sc.nextLine();
+	
+	}
+	
+	
+	while(sc.hasNextInt()) {
+	
+	sc.nextInt();
+	
+	}
+
+## BufferedReader
+
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in);
+	
+	String input = "";
+	
+	
+	
+	while((input = br.readLine()) != null) {
+	
+	//......실행 코드
+	
+	}
+
+
+
+## 출처
+[참고글 링크 :)](https://mygumi.tistory.com/236) 
