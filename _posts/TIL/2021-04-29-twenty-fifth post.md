@@ -27,7 +27,7 @@ categories: TIL
 
 - {초급 JAVA} 자바 인프런 강의 코드 정리 & 학습 내용 레퍼지토리에 인증
 
-- {초급 JAVA} 백준 단계별로 풀어보기 3단계 풀이 공동 레퍼지토리에 인증
+- {초급 JAVA} 백준 단계별로 풀어보기 4단계 풀이 공동 레퍼지토리에 인증
 
 - {초급 JAVA} Buffered reader(StringTokenize), Buffered Writer, EOF 정리 내용 업로드
 
