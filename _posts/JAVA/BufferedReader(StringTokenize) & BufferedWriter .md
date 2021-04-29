@@ -32,11 +32,11 @@ categories: 초급JAVA스터디
 > import java.util.StringTokenizer;
 
 ## BufferedReader
-나와 같은 Java에 익숙하지 않은 사람들이 주로 받는 입력방식은 **_Scanner_**이다. Scanner를 통해 입력을 받을 경우 `Space`, `Enter`를 모두 경계로 인식하기에 입력받은 데이터를 가공해야 하는 경우는 비교적 적고, 가공하기에도 매우 편리하다.         
-하지만 그에 비해 **_BufferedReader_**는 `Enter`만 경계로 인식하고, 받은 데이터가 `String`으로 고정되기 때문에 입력받은 데이터를 가공하는 작업이 필요할 경우가 많다.
+나와 같은 Java에 익숙하지 않은 사람들이 주로 받는 입력방식은 **Scanner**이다. Scanner를 통해 입력을 받을 경우 `Space`, `Enter`를 모두 경계로 인식하기에 입력받은 데이터를 가공해야 하는 경우는 비교적 적고, 가공하기에도 매우 편리하다.         
+하지만 그에 비해 BufferedReader는 `Enter`만 경계로 인식하고, 받은 데이터가 `String`으로 고정되기 때문에 입력받은 데이터를 가공하는 작업이 필요할 경우가 많다.
 
 그래도!        
-많은 양의 데이터를 입력받을경우 **_BufferedReader_**를 통해 입력받는 것이 **_효율면_**에서 훨씬 낫다는 거! 
+많은 양의 데이터를 입력받을경우 **BufferedReader**를 통해 입력받는 것이 **효율면**에서 훨씬 낫다는 거! 
 
 ### [BufferedReader 사용법]
 
@@ -47,11 +47,11 @@ categories: 초급JAVA스터디
  선언은 위에 있는 예제처럼 하면 된다. 입력은 readLine();이라는 메서드를 활용하면 되는데, 주의할점이 두가지가 있다.       
    
 첫번째는 readLine()시 리턴값을 String으로 고정되기에 String이 아닌 다른타입으로 입력을 받을려면 형변환을 꼭 해주어야한다는 점이다.          
-두번째로는 **_예외처리_** 를 꼭 해주어야 한다. readLine을 할때마다 try & catch를 활용하여 예외처리를 해주어도 되지만 대개 throws IOException을 통하여 작업한다.
+두번째로는 **예외처리** 를 꼭 해주어야 한다. readLine을 할때마다 try & catch를 활용하여 예외처리를 해주어도 되지만 대개 throws IOException을 통하여 작업한다.
 
 ### [Read한 데이터 가공]
 	
- BufferedReader를 사용하여 Read한 데이터는 Line단위(한 줄 단위)로만 나눠지기에 **_공백단위_** 로 데이터를 가공하려면 따로 작업을 해주어야 한다.       
+ BufferedReader를 사용하여 Read한 데이터는 Line단위(한 줄 단위)로만 나눠지기에 **공백단위** 로 데이터를 가공하려면 따로 작업을 해주어야 한다.       
 이에 대해서는 아래의 두가지 방법이 대표적이라고 할 수 있겠다.  
        
 첫 번째 방법은 StringTokenizer에 nextToken()함수를 쓰는 것이다.      
@@ -74,7 +74,7 @@ categories: 초급JAVA스터디
 사실 이를 대체할 수 있는 방법으로는, `StringBuilder` 로 하나의 문자열로 계속 연결시킨 뒤 가장 마지막에 연결된 하나의 문자열을 출력시키는 방법, 
 그리고 `BufferedWriter` 로 버퍼에 담아둬았다가 한 번에 데이터를 보내는, 두 가지 방법이 있다.        
 
-적은 양의 출력일 때는 성능 차이가 미미하지만, 많은 양의 데이터를 출력할 경우 **_System.out.println("");_**보다는 **_BufferedWriter_**를 통해 출력하는 것이 **_효율면_**에서 훨씬 낫다는 거! 
+적은 양의 출력일 때는 성능 차이가 미미하지만, 많은 양의 데이터를 출력할 경우 **System.out.println("");**보다는 **BufferedWriter**를 통해 출력하는 것이 **효율면**에서 훨씬 낫다는 거! 
 
 ### BufferedWriter 사용법
 
