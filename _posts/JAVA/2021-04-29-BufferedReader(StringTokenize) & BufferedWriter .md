@@ -1,5 +1,5 @@
 ---
-title: "JAVA - BufferedReader(StringTokenize) & BufferedWriter"
+title: "[21.04.29] 초급JAVA스터디 - BufferedReader(StringTokenize) & BufferedWriter"
 date: 2021-04-29 12:40:28 -0400
 categories: 초급JAVA스터디
 ---
