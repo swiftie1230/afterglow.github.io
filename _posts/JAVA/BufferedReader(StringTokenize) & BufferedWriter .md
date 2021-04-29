@@ -12,8 +12,8 @@ categories: 초급JAVA스터디
 
 **BufferedReader/BufferedWriter**는 이름처럼 **버퍼를 이용**해서 읽고 쓰는, Buffer에 있는 IO 클래스이다.      
 입력된 데이터가 바로 전달되지 않고 중간에 버퍼링이 된 후에 전달되고, 출력도 마찬가지로 버퍼를 거쳐서 간접적으로 출력장치로 전달되기에 시스템의 데이터처리 효율성을 높여준다.       
-또한 버퍼스트림을 **_InputStreamReader / OutputStreamWriter_**를 같이 사용하여 버퍼링을 하게 되면 입출력 스트림으로부터 미리 버퍼에 데이터를 갖다 놓기 때문에 보다 효율적인 입출력이 가능하다.       
-이렇게 **_버퍼를 이용_**하면 입출력의 효율이 비교할 수 없을 정도로 좋아지는 것!
+또한 버퍼스트림을 InputStreamReader / OutputStreamWriter를 같이 사용하여 버퍼링을 하게 되면 입출력 스트림으로부터 미리 버퍼에 데이터를 갖다 놓기 때문에 보다 효율적인 입출력이 가능하다.       
+이렇게 **_버퍼_** 를 이용하면 입출력의 효율이 비교할 수 없을 정도로 좋아지는 것!
 
 한 번 거쳐가는 작업 때문에 오히려 느릴 것 같은데 왜 빠른 걸까.     
 하드디스크는 원래 속도가 엄청 느리다.       
@@ -46,15 +46,15 @@ categories: 초급JAVA스터디
 	
  선언은 위에 있는 예제처럼 하면 된다. 입력은 readLine();이라는 메서드를 활용하면 되는데, 주의할점이 두가지가 있다.       
    
-첫번째는 readLine()시 리턴값을 String으로 고정되기에 **_String이 아닌 다른타입으로 입력을 받을려면 형변환_**을 꼭 해주어야한다는 점이다.          
-두번째로는 **_예외처리_**를 꼭 해주어야 한다. readLine을 할때마다 try & catch를 활용하여 예외처리를 해주어도 되지만 대개 **_throws IOException_**을 통하여 작업한다.
+첫번째는 readLine()시 리턴값을 String으로 고정되기에 String이 아닌 다른타입으로 입력을 받을려면 형변환을 꼭 해주어야한다는 점이다.          
+두번째로는 **_예외처리_** 를 꼭 해주어야 한다. readLine을 할때마다 try & catch를 활용하여 예외처리를 해주어도 되지만 대개 throws IOException을 통하여 작업한다.
 
 ### [Read한 데이터 가공]
 	
- BufferedReader를 사용하여 Read한 데이터는 Line단위(한 줄 단위)로만 나눠지기에 **_공백단위로 데이터를 가공_**하려면 따로 작업을 해주어야 한다.       
+ BufferedReader를 사용하여 Read한 데이터는 Line단위(한 줄 단위)로만 나눠지기에 **_공백단위_** 로 데이터를 가공하려면 따로 작업을 해주어야 한다.       
 이에 대해서는 아래의 두가지 방법이 대표적이라고 할 수 있겠다.  
        
-첫 번째 방법은 **_StringTokenizer에 nextToken()함수_**를 쓰는 것이다.      
+첫 번째 방법은 StringTokenizer에 nextToken()함수를 쓰는 것이다.      
 
 	StringTokenizer st = new StringTokenizer(s); //StringTokenizer인자값에 입력된 문자열 넣는다.
 		int a = Integer.parseInt(st.nextToken()); //첫번째 공백단위로 가공한 값 호출
@@ -85,7 +85,7 @@ categories: 초급JAVA스터디
 	bw.flush();//남아있는 데이터를 모두 출력시킴
 	bw.close();//스트림을 닫음
 
-BufferedWriter 의 경우 버퍼를 잡아 놓았기 때문에 **_flush() / close() 를 반드시 호출해 주어 뒤처리를 해주어야 한다._** 그리고 bw.write에는 System.out.println();과 같이 **_자동개행기능이 없기 때문_**에 개행을 해주어야할 경우에는 `\n`를 통해 따로 처리해주어야 한다.
+BufferedWriter 의 경우 버퍼를 잡아 놓았기 때문에 flush() / close() 를 반드시 호출해 주어 뒤처리를 해주어야 한다. 그리고 bw.write에는 System.out.println();과 같이 자동개행기능이 없기 때문에 개행을 해주어야할 경우에는 `\n`를 통해 따로 처리해주어야 한다.
 
 <img width="734" alt="스크린샷 2021-04-29 오후 12 21 38" src="https://user-images.githubusercontent.com/63195670/116498767-7e027700-a8e5-11eb-981e-be5c4b720eb4.png">
 
