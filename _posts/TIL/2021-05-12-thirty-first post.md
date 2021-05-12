@@ -16,7 +16,7 @@ categories: TIL
 - {모냉고 프로젝트}       
 
    * [IOS] 회원가입 화면 재배치 및 버튼 & 관련 함수 구현
-   * 9:00 냉부해 회의 참석!
+   * 9:00 회의 참석!
 
     
 - {알고리즘활용} Merge sort & Sliding Window 개념 공부 + 관련 문제(leetcode) 1문제 풀기
