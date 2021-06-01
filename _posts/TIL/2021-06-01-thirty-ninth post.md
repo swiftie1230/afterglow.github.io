@@ -24,17 +24,6 @@ categories: TIL
        * 이진탐색
        * low, high 정해서 하나씩 크고 작게 해보기
 
-- **{학교수업 자료구조} 강의 + 정리**        
-   * MST
-       * Kruskal's Method
-       * Prim's Method
-       * Sollin's Method
- 
-   * Shortest Path Problems
-       * Single Source - Single Destination (X)
-       * Single Source - All Destination
-       * All pairs    
-
 
 # 𝕆𝕥𝕙𝕖𝕣 𝕊𝕥𝕦𝕕𝕪✔️
 
