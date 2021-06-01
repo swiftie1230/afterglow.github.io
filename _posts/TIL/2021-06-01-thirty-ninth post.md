@@ -35,9 +35,6 @@ categories: TIL
        * Single Source - All Destination
        * All pairs    
 
-  
-- {모냉고} 
-     * [서버] 20:00 모여서 공부
 
 # 𝕆𝕥𝕙𝕖𝕣 𝕊𝕥𝕦𝕕𝕪✔️
 
