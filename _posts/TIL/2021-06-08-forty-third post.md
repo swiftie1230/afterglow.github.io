@@ -23,7 +23,7 @@ categories: TIL
    * SPP 중 단일 출발 최단 경로 문제 해결 
        * Dijkstra 알고리즘
        * Bellman-Ford 알고리즘
-    * SPP 중 전체쌍 최단 경로
+    * SPP 중 전체쌍 최단 경로 문제 해결
          * Floyd - Warshall 알고리즘 
  
 
