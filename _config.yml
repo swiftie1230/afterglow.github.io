@@ -96,7 +96,7 @@ analytics:
 # Site Author
 author:
   name             : "새라"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/me.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "My one-and-only Memorable moment storage"
   location         : "Korea"
   email            : "swiftie1230@naver.com"
