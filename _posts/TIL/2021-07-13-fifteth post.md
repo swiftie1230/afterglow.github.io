@@ -31,8 +31,9 @@ categories: TIL
 - **{iOS_공부}**
 
 	* iOS 앱 관련 책 데이트 피커 사용해 날짜 선택 부분까지 공부 + 과제 수행한 것 레퍼지토리에 업로드
-	* 깃 블로그 수정! :)
-		- 프로필, About me, categories 수정
+
+- **{깃 블로그 수정! :)}**
+		* 프로필, About me, categories 수정
 
 - **{Golang_스터디}**
 
