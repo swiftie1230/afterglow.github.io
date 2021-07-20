@@ -65,6 +65,7 @@ _
 	-벤자민 프랭클린
 
 <div class="notice--primary" markdown="1">
-**<u>오늘의 TIL</u>**은 여기까지!       
+<u>오늘의 TIL</u>은 여기까지!     
+      
 앞으로의 나에게도 화이팅 🌸 
 </div>
