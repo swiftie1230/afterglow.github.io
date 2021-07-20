@@ -28,7 +28,7 @@ teaser                   : # "/assets/images/88x88.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 cover                    : "assets/images/me.JPG"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true # true, false (default)
+# breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
