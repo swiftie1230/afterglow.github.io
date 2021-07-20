@@ -1,6 +1,8 @@
 ---
 title: "[21.07.19] TIL"
 date: 2021-07-19 23:00:28 -0400
+toc: true
+toc_sticky: true
 categories: TIL
 ---
 
