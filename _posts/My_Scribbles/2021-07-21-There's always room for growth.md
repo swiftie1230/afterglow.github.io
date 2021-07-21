@@ -30,10 +30,10 @@ categories: My_Scribbles
 가끔은 진짜 생각이나 감정을 잠깐 끌 수 있는 장치라도 있었으면 좋겠다..고 생각하기도 한다.     
 
 아. 맞다. 그리고 오늘 갑자기 또현이랑 연락하다가 드라이브 뒤지면서 급추억팔이함.   
-<p align="center"><img src="https://user-images.githubusercontent.com/63195670/126503239-b54febf4-9c11-47d3-beca-c8c5aee51131.jpg" height="300px" width="300px"></p>     
+<img src="https://user-images.githubusercontent.com/63195670/126503239-b54febf4-9c11-47d3-beca-c8c5aee51131.jpg" height="300px" width="300px">    
 ` 이곤 인생 네컷 찍은 후 같이 찍었던 거울샷`    
  
-<p align="center"><img src="https://user-images.githubusercontent.com/63195670/126503246-81e3987e-91fa-4d91-a4e6-079744848e20.JPG" height="300px" width="300px"></p>       
+<img src="https://user-images.githubusercontent.com/63195670/126503246-81e3987e-91fa-4d91-a4e6-079744848e20.JPG" height="300px" width="300px">      
 ` 인생 네컷 찍은 후 같이 찍었던 거울샷22 `
 
 내 표정 `==` 이걸 보는 사람들 표정.    
@@ -42,14 +42,14 @@ categories: My_Scribbles
 무튼 이 때 오랜만에 만나서 재밌었는데... 😭 우리 셋이 여행 언제 가냐아..  
 이 코로나 진짜. 눈치 챙겨.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/63195670/126503222-95295519-69f0-4cf5-8326-1188a0341046.JPG" height="300px" width="300px"></p>
+<img src="https://user-images.githubusercontent.com/63195670/126503222-95295519-69f0-4cf5-8326-1188a0341046.JPG" height="300px" width="300px">
 
-<p align="center"><img src="https://user-images.githubusercontent.com/63195670/126503243-21851f4c-f94f-4897-abc9-28f05086c2eb.JPG" height="300px" width="300px"></p>
+<img src="https://user-images.githubusercontent.com/63195670/126503243-21851f4c-f94f-4897-abc9-28f05086c2eb.JPG" height="300px" width="300px">
 
 이건 토피 데리고 댕그라운드 갔을 때 내따랑이자 내 겜친이 찍어줬던 사진.    
 토피 보곺당. 언제 또 가지. 
 
-<p align="center"><img src="https://user-images.githubusercontent.com/63195670/126503215-6cdd88c9-2259-478b-a5e2-88045526e5ba.JPG" height="300px" width="300px"></p>   
+<img src="https://user-images.githubusercontent.com/63195670/126503215-6cdd88c9-2259-478b-a5e2-88045526e5ba.JPG" height="300px" width="300px">   
 
 이건 왜 있는 걸까? ㅋㅋㅋㅋㅋㅋ 봉사하는 곳 화장실에서 찍은 듯.     
 너무 내츄럴한걸. 와중에 정말 빨리 끝내버리고 가고 싶은 생각이 표정에 아주 잘 드러남.
