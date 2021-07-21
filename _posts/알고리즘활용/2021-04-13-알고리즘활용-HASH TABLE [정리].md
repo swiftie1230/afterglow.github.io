@@ -1,7 +1,9 @@
 ---
 title: "[21.04.13] 알고리즘활용스터디 - HashTable [정리]"
 date: 2021-04-13 03:20:28 -0400
-categories: 알고리즘활용스터디
+toc: true
+toc_sticky: true
+categories: Algorithm_Study
 ---
 
 # HASH TABLE
