@@ -34,7 +34,7 @@ categories: My_Scribbles
 `이곤 인생 네컷 찍은 후 같이 찍었던 거울샷`    
  
 <img src="https://user-images.githubusercontent.com/63195670/126503246-81e3987e-91fa-4d91-a4e6-079744848e20.JPG" height="500px" width="500px">          
-`인생 네컷 찍은 후 같이 찍었던 거울샷22`
+`인생 네컷 찍은 후 같이 찍었던 거울샷22`     
 
 
 내 표정 `==` 이걸 보는 사람들 표정.    
