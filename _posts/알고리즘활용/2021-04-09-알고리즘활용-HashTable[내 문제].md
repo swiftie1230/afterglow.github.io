@@ -1,7 +1,9 @@
 ---
 title: "[21.04.09] 알고리즘활용스터디 - HashTable [내 문제]"
 date: 2021-04-09 02:37:28 -0400
-categories: 알고리즘활용스터디
+toc: true
+toc_sticky: true
+categories: Algorithm_Study
 ---
 
 # HashTable [내 문제]
