@@ -1,6 +1,8 @@
 ---
 title: "[21.06.08] TIL"
 date: 2021-06-08 23:00:28 -0400
+toc: true
+toc_sticky: true
 categories: TIL
 ---
 
