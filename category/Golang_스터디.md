@@ -1,6 +1,6 @@
 ---
 
 layout: category
-title: Golang_스터디
+title: Golang_Study
 
 ---
