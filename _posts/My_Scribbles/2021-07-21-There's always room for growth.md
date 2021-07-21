@@ -60,8 +60,9 @@ categories: My_Scribbles
 이제 내가 자주 챙겨보는 유투버 한 분이 하신 말 중 진짜 마음에 들었던 말 하나 남겨놓고 첫 글은 이만 줄여야겠다.  
 
 <div class="notice--primary" markdown="1">
-🌝 There's always room for growth.  
-  <u>성장에는 끝이 없다.</u> 
+🌝 <u>끄적끄적</u> 
+There's always room for growth.  
+성장에는 끝이 없다. 
 </div> 
 
 정말 너무 공감되고 마음에 드는 동시에, 약간 동기부여가 되는 말이었다.   
