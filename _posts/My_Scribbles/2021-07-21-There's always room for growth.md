@@ -31,6 +31,7 @@ categories: My_Scribbles
 
 아. 맞다. 그리고 오늘 갑자기 또현이랑 연락하다가 드라이브 뒤지면서 급추억팔이함.   
 <center>
+  
 ![3472452216297895713_20210721124958187](https://user-images.githubusercontent.com/63195670/126503239-b54febf4-9c11-47d3-beca-c8c5aee51131.jpg){: width="200" height="200"}   
 ` 이곤 인생 네컷 찍은 후 같이 찍었던 거울샷`    
  
