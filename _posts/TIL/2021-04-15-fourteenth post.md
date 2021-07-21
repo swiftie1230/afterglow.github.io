@@ -1,6 +1,8 @@
 ---
 title: "[21.04.15] TIL"
 date: 2021-04-15 19:00:28 -0400
+toc: true
+toc_sticky: true
 categories: TIL
 ---
 [21.04.15]
