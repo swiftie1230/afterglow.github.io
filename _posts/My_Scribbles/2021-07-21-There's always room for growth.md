@@ -60,7 +60,7 @@ categories: My_Scribbles
 
 <div class="notice--primary" markdown="1">
 🌝 There's always room for growth.  
-<u>성장에는 끝이 없다.</u> 
+  <u>성장에는 끝이 없다.</u> 
 </div> 
 
 정말 너무 공감되고 마음에 드는 동시에, 약간 동기부여가 되는 말이었다.   
