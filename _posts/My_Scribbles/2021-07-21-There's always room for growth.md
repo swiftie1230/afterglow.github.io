@@ -45,6 +45,7 @@ categories: My_Scribbles
 무튼 이 때 오랜만에 만나서 재밌었는데... 😭 우리 셋이 여행 언제 가냐아..  
 이 코로나 진짜. 눈치 챙겨.
 <center>
+  
 ![IMG_9351](https://user-images.githubusercontent.com/63195670/126503222-95295519-69f0-4cf5-8326-1188a0341046.JPG){: width="200" height="200"}
 
 ![IMG_9913](https://user-images.githubusercontent.com/63195670/126503243-21851f4c-f94f-4897-abc9-28f05086c2eb.JPG){: width="200" height="200"}
@@ -54,6 +55,7 @@ categories: My_Scribbles
 토피 보곺당. 언제 또 가지. 
 
 <center>
+  
 ![3472451768624671264_20210721125128277](https://user-images.githubusercontent.com/63195670/126503215-6cdd88c9-2259-478b-a5e2-88045526e5ba.JPG){: width="200" height="200"}
 </center>
 
