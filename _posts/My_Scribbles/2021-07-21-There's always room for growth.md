@@ -49,7 +49,7 @@ categories: My_Scribbles
 이건 토피 데리고 댕그라운드 갔을 때 내따랑이자 내 겜친이 찍어줬던 사진.    
 토피 보곺당. 언제 또 가지. 
 
-<img src="https://user-images.githubusercontent.com/63195670/126503215-6cdd88c9-2259-478b-a5e2-88045526e5ba.JPG" height="500px" width="500px">   
+<img src="https://user-images.githubusercontent.com/63195670/126503215-6cdd88c9-2259-478b-a5e2-88045526e5ba.JPG" height="500px" width="400px">   
 
 이건 왜 있는 걸까? ㅋㅋㅋㅋㅋㅋ 봉사하는 곳 화장실에서 찍은 듯.     
 너무 내츄럴한걸. 와중에 정말 빨리 끝내버리고 가고 싶은 생각이 표정에 아주 잘 드러남.
