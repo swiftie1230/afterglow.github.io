@@ -33,8 +33,9 @@ categories: My_Scribbles
 <img src="https://user-images.githubusercontent.com/63195670/126503239-b54febf4-9c11-47d3-beca-c8c5aee51131.jpg" height="500px" width="500px">    
 `이곤 인생 네컷 찍은 후 같이 찍었던 거울샷`    
  
-<img src="https://user-images.githubusercontent.com/63195670/126503246-81e3987e-91fa-4d91-a4e6-079744848e20.JPG" height="500px" width="500px">        
+<img src="https://user-images.githubusercontent.com/63195670/126503246-81e3987e-91fa-4d91-a4e6-079744848e20.JPG" height="500px" width="500px">          
 `인생 네컷 찍은 후 같이 찍었던 거울샷22`
+
 
 내 표정 `==` 이걸 보는 사람들 표정.    
 위에 `==` 모르는 사람 이 글 볼 자격 없음.ㅎㅋ
