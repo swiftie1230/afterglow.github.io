@@ -60,6 +60,15 @@ layout: default
       {% include comments.html %}
     {% endif %}
   </article>
+    
+    <script src="https://utteranc.es/client.js"
+        repo="swiftie1230/comments"
+        issue-term="pathname"
+        label="✨💬 Comments ✨"
+        theme="github-dark-orange"
+        crossorigin="anonymous"
+        async>
+</script>
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
@@ -82,14 +91,6 @@ layout: default
           {% endif %}
           {% include archive-single.html type="grid" %}
         {% endfor %}
-        <script src="https://utteranc.es/client.js"
-        repo="swiftie1230/comments"
-        issue-term="pathname"
-        label="✨💬 Comments ✨"
-        theme="github-dark-orange"
-        crossorigin="anonymous"
-        async>
-</script>
       </div>
     </div>
   {% endif %}
