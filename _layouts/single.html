@@ -53,16 +53,16 @@ layout: default
         
        
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
-        <script src="https://utteranc.es/client.js"
+      {% if page.share %}{% include social-share.html %}<script src="https://utteranc.es/client.js"
         repo="swiftie1230/comments"
         issue-term="pathname"
         label="✨💬 Comments ✨"
         theme="github-dark-orange"
         crossorigin="anonymous"
         async>
-</script>
+</script>{% endif %}
+
+        
         
       {% include post_pagination.html %}
     </div>
