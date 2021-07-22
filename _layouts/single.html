@@ -41,14 +41,6 @@ layout: default
           </aside>
         {% endif %}
         {{ content }}
-        <script src="https://utteranc.es/client.js"
-        repo="swiftie1230/comments"
-        issue-term="pathname"
-        label="✨💬 Comments ✨"
-        theme="github-dark-orange"
-        crossorigin="anonymous"
-        async>
-</script>
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
 
       <footer class="page__meta">
@@ -75,7 +67,14 @@ layout: default
     {% endif %}
   </article>
 
-  {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
+  {% comment %}<div class="comment"><script src="https://utteranc.es/client.js"
+        repo="swiftie1230/comments"
+        issue-term="pathname"
+        label="✨💬 Comments ✨"
+        theme="github-dark-orange"
+        crossorigin="anonymous"
+        async>
+</script><div>{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
