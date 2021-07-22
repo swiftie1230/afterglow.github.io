@@ -41,6 +41,14 @@ layout: default
           </aside>
         {% endif %}
         {{ content }}
+        <script src="https://utteranc.es/client.js"
+        repo="swiftie1230/comments"
+        issue-term="pathname"
+        label="✨💬 Comments ✨"
+        theme="github-dark-orange"
+        crossorigin="anonymous"
+        async>
+</script>
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
 
       <footer class="page__meta">
@@ -58,14 +66,7 @@ layout: default
         
         
       {% include post_pagination.html %}
-        <script src="https://utteranc.es/client.js"
-        repo="swiftie1230/comments"
-        issue-term="pathname"
-        label="✨💬 Comments ✨"
-        theme="github-dark-orange"
-        crossorigin="anonymous"
-        async>
-</script>
+       
     </div>
       
 
