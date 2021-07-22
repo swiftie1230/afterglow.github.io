@@ -20,15 +20,6 @@ layout: archive
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>
-    <div>
-    <script src="https://utteranc.es/client.js"
-        repo="swiftie1230/swiftie1230-comments"
-        issue-term="pathname"
-        theme="icy-dark"
-        crossorigin="anonymous"
-        async>
-</script>
-    </div>
     <div class="entries-{{ entries_layout }}">
       {% for post in year.items %}
         {% include archive-single.html type=entries_layout %}
