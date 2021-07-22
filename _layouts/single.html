@@ -51,7 +51,11 @@ layout: default
         {% include page__date.html %}
       </footer>
         
-       <script src="https://utteranc.es/client.js"
+       
+
+      {% if page.share %}{% include social-share.html %}{% endif %}
+
+        <script src="https://utteranc.es/client.js"
         repo="swiftie1230/comments"
         issue-term="pathname"
         label="✨💬 Comments ✨"
@@ -59,9 +63,7 @@ layout: default
         crossorigin="anonymous"
         async>
 </script>
-
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
+        
       {% include post_pagination.html %}
     </div>
 
