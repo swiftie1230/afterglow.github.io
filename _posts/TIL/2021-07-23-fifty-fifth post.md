@@ -18,7 +18,7 @@ categories: TIL
 		* Web, Web App
 			- let [Url 변수] = URL(string: url)
 
-			- let [Request 변수] = URLRequest(url: myUrl!)
+			- let [Request 변수] = URLRequest(url: Url변수!)
 			
 			- [Web view 아울렛 변수].load(Request 변수)
 			
