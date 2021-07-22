@@ -43,6 +43,15 @@ layout: default
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
+      
+        <script src="https://utteranc.es/client.js"
+        repo="swiftie1230/comments"
+        issue-term="pathname"
+        label="✨💬 Comments ✨"
+        theme="icy-dark"
+        crossorigin="anonymous"
+        async>
+</script>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
@@ -73,14 +82,6 @@ layout: default
       </div>
     </div>
   {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
-  <script src="https://utteranc.es/client.js"
-        repo="swiftie1230/comments"
-        issue-term="pathname"
-        label="✨💬 Comments ✨"
-        theme="icy-dark"
-        crossorigin="anonymous"
-        async>
-</script>
   {% elsif page.id and page.related %}
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
