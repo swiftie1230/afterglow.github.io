@@ -217,6 +217,7 @@ categories: Algorithm_Problems
       9    
       25    
       
+    
 [출력]    
     
       5 
@@ -463,8 +464,9 @@ defaultdict()는 딕셔너리를 만드는 dict 클래스의 서브 클래스이
 
 📌 default 값으로 list를 줬을 때 작동방식    
 
-	list_dict = defaultdict(list)
-	#'key1'에 값을 지정하지 않고, 'key2'에는 'test' 라는 값을 지정해 주었다 가정하자.
+	list_dict = defaultdict(list)    
+	#'key1'에 값을 지정하지 않고, 'key2'에는 'test' 라는 값을 지정해 주었다 가정하자.    
+  
 위의 경우 list_dict['key1'] = [] , list_dict['key1'] = 'test' 이다.    
 즉, 위와 같이 설정을 하면 값을 지정하지 않은 키는 그 값으로 빈 리스트가 지정되고, 키에 명시적으로 값을 지정하게 되면 그 값이 지정된다는 뜻!     
 
