@@ -58,7 +58,9 @@ categories: Algorithm_Problems
 
 </div> 
 
+
 ### Question Clarifying & Time, Space Complexity 
+
 
 	"""
 	input:
@@ -85,7 +87,7 @@ categories: Algorithm_Problems
 	stack.pop , answer += 2
 	"""
 
-###My Solution(Explanation) & Code
+### My Solution(Explanation) & Code
 
 일단 `board`와 `moves`를 파라미터로 하는 Solution 함수를 선언.   
 
@@ -594,3 +596,8 @@ defaultdict()는 딕셔너리를 만드는 dict 클래스의 서브 클래스이
 - defaultdict()   
 - Silding Window    
 </div>
+
+## 참고 사이트  
+
+[sys.stdin.readline() 관련 참고 사이트](https://velog.io/@yeseolee/Python-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%85%EB%A0%A5-%EC%A0%95%EB%A6%ACsys.stdin.readline)
+[defaultdict() 관련 참고 사이트](https://dongdongfather.tistory.com/69)
