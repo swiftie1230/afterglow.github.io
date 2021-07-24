@@ -12,7 +12,7 @@ categories: Algorithm_Problems
 📜 [<u>2021.7.22</u> 00:00 진행] 
 </div>  
 
-## 프로그래머스 - 크레인 인형뽑기 게임
+## [프로그래머스 - 크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061)
 
 ### 문제 설명
 
@@ -33,7 +33,7 @@ categories: Algorithm_Problems
 게임 화면의 격자의 상태가 담긴 2차원 배열 board와 인형을 집기 위해 크레인을 작동시킨 위치가 담긴 배열 moves가 매개변수로 주어질 때, 크레인을 모두 작동시킨 후 터트려져 사라진 인형의 개수를 return 하도록 solution 함수를 완성해주세요.  
  
 <div class="notice--primary" markdown="1">
-⚠️ <u>[제한사항]</u>
+⚠️ <u>[제한사항]</u>    
 
 * board 배열은 2차원 배열로 크기는 "5 x 5" 이상 "30 x 30" 이하입니다.   
 * board의 각 칸에는 0 이상 100 이하인 정수가 담겨있습니다.
@@ -48,7 +48,7 @@ categories: Algorithm_Problems
 
 ### 입출력 예에 대한 설명
 <div class="notice--primary" markdown="1">
-🌝 <u>입출력 예 #1</u>      
+🌝 <u>입출력 예 #1</u>       
 
 인형의 처음 상태는 문제에 주어진 예시와 같습니다.     
 크레인이 [1, 5, 3, 5, 1, 2, 1, 4] 번 위치에서 차례대로 인형을 집어서 바구니에 옮겨 담은 후, 상태는 아래 그림과 같으며 바구니에 담는 과정에서 터트려져 사라진 인형은 4개 입니다.      
@@ -122,7 +122,8 @@ categories: Algorithm_Problems
 	                basketStack = [new[i][0]]
 	     
 <div class="notice--primary" markdown="1">
-⚠️ <u>여기서 주의!</u>    
+⚠️ <u>여기서 주의!</u>     
+
 이 조건을 고려하지 않고 바로 비교한다면, basketStack에 어떤 값도 들어가 있지 않기 때문에 basketStack[-1]과 비교하는 과정에서 IndexError: list index out of range 라는 오류가 발생한다.
 </div>
 
@@ -177,7 +178,7 @@ categories: Algorithm_Problems
 	
 	    return answer
 
-## 백준 - [2531번] 회전 초밥 게임
+## 백준 - [회전 초밥 게임](https://www.acmicpc.net/problem/2531)
 
 ### 문제 설명
 
@@ -204,18 +205,19 @@ categories: Algorithm_Problems
 <div class="notice--primary" markdown="1">
 🌝 <u>입출력 예 #1</u>     
 
-  입력    
-    8 30 4 30      
-    7    
-    9    
-    7    
-    30    
-    2    
-    7    
-    9    
-    25    
-  출력    
-    5 
+    입력    
+      8 30 4 30      
+      7    
+      9    
+      7    
+      30    
+      2    
+      7    
+      9    
+      25    
+    출력    
+      5 
+
 </div> 
 
 ### Question Clarifying & Time, Space Complexity 
@@ -285,6 +287,7 @@ categories: Algorithm_Problems
 	a = int(sys.stdin.readline())
 
 😨 그냥 a = sys.stdin.readline() 하면 안되나요?    
+
 👉 sys.stdin.readline()은 한줄 단위로 입력받기 때문에, 개행문자가 같이 입력 받아진다.     
 만약 3을 입력했다면, 3\n 이 저장된다는 소리!    
 또한, 변수 타입이 <u>문자열 형태(str)</u>로 저장되기 때문에, 정수로 사용하기 위해서 형변환을 거쳐야 한다.
@@ -333,7 +336,9 @@ strip()은 문자열 맨 앞과 맨 끝의 공백문자를 제거한다.
 안녕안녕      
 나는 지수야    
 헬륨가스 마셨더니 이렇게됐지    
+
 👉 출력     
+
 ['안녕안녕', '나는 지수야', '헬륨가스 마셨더니 이렇게됐지']   
 </div>
 
@@ -365,7 +370,8 @@ strip()은 문자열 맨 앞과 맨 끝의 공백문자를 제거한다.
             currdishList.append(dishList[(i+j) % N])
 	     
 <div class="notice--primary" markdown="1">
-🌝 <u>여기서 잠깐!</u>    
+🌝 <u>여기서 잠깐!</u>     
+
 dishList[(i+j) % N]처럼 사용하는 이유는 <u>회전초밥</u>이기 때문이다.    
 즉, 우리가 list 형태로 저장해 놓았기에 회전초밥 dishList의 <u>마지막 접시</u>에서 시작하게 되면, k개를 모두 검사하지 못한다.    
 따라서 나머지를 이용하여 list의 길이보다 커지게 되면 list의 처음부터 다시 시작할 수 있도록 한 것!
@@ -592,6 +598,7 @@ defaultdict()는 딕셔너리를 만드는 dict 클래스의 서브 클래스이
 	    
 <div class="notice--primary" markdown="1">
 🌟 <u>이번 Session 의 포인트</u>    
+
 - sys.stdin.readline()      
 - defaultdict()   
 - Silding Window    
