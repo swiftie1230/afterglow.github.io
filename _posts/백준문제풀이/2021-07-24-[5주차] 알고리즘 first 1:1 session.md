@@ -197,19 +197,19 @@ categories: Algorithm_Problems
 ### 입출력 예
 
 <div class="notice--primary" markdown="1">
-🌝 <u>입출력 예 #1</u>
+🌝 <u>입출력 예 #1</u>    
 입력    
-	8 30 4 30
-	7
-	9
-	7
-	30
-	2
-	7
-	9
-	25
+	8 30 4 30      
+	7    
+	9    
+	7    
+	30    
+	2    
+	7    
+	9    
+	25    
 출력    
-	5
+	5 
 </div> 
 
 ### Question Clarifying & Time, Space Complexity 
@@ -265,8 +265,9 @@ categories: Algorithm_Problems
 
 	import sys
 		def Solution():
-	    	N, d, k, c = map(int, sys.stdin.readline().split())
-
+	    	N, d, k, c = map(int, sys.stdin.readline().split()) 
+        
+<div class="notice--primary" markdown="1">
 🌝 <u>여기서 잠깐!</u> sys.stdin.readline()은 뭘까?   
 
 한 두줄 입력받는 문제들과 다르게, 반복문으로 여러줄을 입력 받아야 할 때 input()으로 입력 받는다면 시간초과가 발생할 수 있다.   
@@ -429,7 +430,8 @@ dishList[(i+j) % N]처럼 사용하는 이유는 <u>회전초밥</u>이기 때�
 	from collections import defaultdict
 		def Solution():
     			N, d, k, c = map(int, sys.stdin.readline().split())
-
+       
+<div class="notice--primary" markdown="1">
 🌝 <u>여기서 잠깐!</u> defaultdict은 뭘까?   
 
 defaultdict()는 딕셔너리를 만드는 dict 클래스의 서브 클래스이다.     
