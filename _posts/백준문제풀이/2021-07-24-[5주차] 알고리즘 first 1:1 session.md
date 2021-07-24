@@ -119,7 +119,7 @@ categories: Algorithm_Problems
 만약 `basketStack`의 길이가 0이라면, `new[i][0]`을 넣어주자.    
 
 	if len(basketStack) == 0:
-	                basketStack = [new[i][0]]
+	     basketStack = [new[i][0]]
 	     
 <div class="notice--primary" markdown="1">
 ⚠️ <u>여기서 주의!</u>     
@@ -130,11 +130,11 @@ categories: Algorithm_Problems
 그리고 `basketStack`의 길이가 0이 아니라면, 비교 후, 같다면 `basketStack`에서는 `pop`, `answer`(터트려진 인형의 개수)을 2개 더해주고, 다르다면 `basketStack`에 `append` 해준다.
 
 	else:
-	          	    if new[i][0] == basketStack[-1]:
-	                    basketStack.pop()
-	                    answer += 2
-	                else:
-	                    basketStack.append(new[i][0])
+	      if new[i][0] == basketStack[-1]:
+	        basketStack.pop()
+	           answer += 2
+	      else:
+	        basketStack.append(new[i][0])
 
 그리고 선택된 인형은 `board`에서 빠지는 인형이므로 `del` 해주자.   
 
@@ -433,7 +433,7 @@ dishList[(i+j) % N]처럼 사용하는 이유는 <u>회전초밥</u>이기 때�
 
 따라서 이 문제는 시간 복잡도를 줄여, `sliding window`를 이용해서 푸는 것이 더 좋은 방법!
 
-### Silding Window Solution(Explanation) & Code
+### Sliding Window Solution(Explanation) & Code
 
 일단 시간을 줄이기 위해 단순한 input() 쓰기보다는 `sys` import 해서 각각의 변수들(`N`, `d`, `k`, `c`)을 띄어쓰기 단위로 입력받는다.    
 또한 각 접시가 존재하는지의 여부를 따지기 위해 `defaultdict`를 사용할 것이기 때문에 이 역시 import 해준다.
@@ -486,7 +486,7 @@ defaultdict()는 딕셔너리를 만드는 dict 클래스의 서브 클래스이
 
 	dishList += dishList[:k]
 
-이제 `Silding window` 를 이용하기 위해 2개의 포인터를 선언하고 초기화!
+이제 `Sliding window` 를 이용하기 위해 2개의 포인터를 선언하고 초기화!
 
 	left = 0
     right = 0
@@ -505,7 +505,7 @@ defaultdict()는 딕셔너리를 만드는 dict 클래스의 서브 클래스이
         whetherIn[dishList[right]] += 1
         right += 1
 
-이제 본격적으로 `Silding Window`를 구현해보자.   
+이제 본격적으로 `Sliding Window`를 구현해보자.   
 
 우선 `right 포인터`가 `dishList`의 끝에 도착할 때까지 `while문`을 돈다.
 
@@ -538,7 +538,7 @@ defaultdict()는 딕셔너리를 만드는 dict 클래스의 서브 클래스이
     right += 1
 	
 
-### Silding Window Final Code
+### Sliding Window Final Code
 	
 	# 시간 초과 줄이기 위해 sys 입력 방식 사용
 	import sys
@@ -572,7 +572,7 @@ defaultdict()는 딕셔너리를 만드는 dict 클래스의 서브 클래스이
 	        whetherIn[dishList[right]] += 1
 	        right += 1
 	
-	    # silding window 적용
+	    # sliding window 적용
 	    while right < len(dishList):
 	        # 일단 most 업데이트
 	        most = max(most, len(whetherIn))
@@ -601,7 +601,7 @@ defaultdict()는 딕셔너리를 만드는 dict 클래스의 서브 클래스이
 
 - sys.stdin.readline()      
 - defaultdict()   
-- Silding Window    
+- Sliding Window    
 </div>
 
 ## 참고 사이트  
