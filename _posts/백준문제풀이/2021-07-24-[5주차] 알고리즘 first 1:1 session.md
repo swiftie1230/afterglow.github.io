@@ -205,7 +205,8 @@ categories: Algorithm_Problems
 <div class="notice--primary" markdown="1">
 🌝 <u>입출력 예 #1</u>     
 
-    입력    
+[입력]   
+
       8 30 4 30      
       7    
       9    
@@ -215,7 +216,9 @@ categories: Algorithm_Problems
       7    
       9    
       25    
-    출력    
+      
+[출력]    
+    
       5 
 
 </div> 
