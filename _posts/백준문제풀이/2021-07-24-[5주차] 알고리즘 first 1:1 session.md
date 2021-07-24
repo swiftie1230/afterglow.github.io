@@ -1,6 +1,6 @@
 ---
-title: "[21.07.22] 알고리즘 5주차 - first 1:1 session”
-date: 2021-07-24 16:00:28 -0400
+title: "[21.07.22] 알고리즘 5주차 - first 1:1 session"
+date: 2021-07-24 18:35:28 -0400
 toc: true
 toc_sticky: true
 categories: Algorithm_Problems
