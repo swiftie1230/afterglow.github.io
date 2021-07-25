@@ -530,4 +530,4 @@ Queue를 구현하려면, 양 끝에서 덧붙이기와 꺼내기가 빠르도�
 ## 참고 사이트  
 
 - [extend() 관련 참고 사이트](https://m.blog.naver.com/wideeyed/221541104629)     
-- [defaultdict() 관련 참고 사이트](https://dongdongfather.tistory.com/69)
+- [queue 관련 참고 사이트](https://daimhada.tistory.com/107)
