@@ -39,7 +39,7 @@ categories: Algorithm_Problems
 
 [입력]   
 
-      abcd
+    abcd
 		3
 		P x
 		L
