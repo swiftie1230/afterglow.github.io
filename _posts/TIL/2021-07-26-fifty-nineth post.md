@@ -16,20 +16,24 @@ categories: TIL
 		
 	* **라이브러리**를 프로젝트에 포함하고 사용해보기   
 
-		- Alamofire, SwiftyJSON, SDWebImage !
+		- Alamofire, SwiftyJSON, SDWebImage !     
+
  
 	*  **API 서버와 데이터 주고받기**		
 
 		- 클라이언트와 서버
-		- Alamofire, SwiftyJSON으로 데이터 통신	
+		- Alamofire, SwiftyJSON으로 데이터 통신	  
+
 
 	* **테이블뷰(UITableView)**의 **동적인(dynamic)** 방법 사용해보기
 
-		- 모두의 책 리뷰 앱 만들어보기
+		- 모두의 책 리뷰 앱 만들어보기    
+
 
 	* **컬렉션뷰(UICollectionView)** 사용해보기
 
-		- 모두의 링크 메모장 앱 만들어보기
+		- 모두의 링크 메모장 앱 만들어보기   
+
 
 	* **랜덤 고양이 앱** 만들기
 
