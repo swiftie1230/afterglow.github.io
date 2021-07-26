@@ -14,7 +14,7 @@ categories: TIL
 
 * **{스파르타 강의 4주차 수강 + 과제 수행} :** [**개발일지 링크!**](https://swiftie1230.github.io/sparta_devlog/4_week/)
 		
-	* **라이브러리**를 프로젝트에 포함하고 사용해보기    
+	* **라이브러리**를 프로젝트에 포함하고 사용해보기   
 
 		- Alamofire, SwiftyJSON, SDWebImage !
  
@@ -22,12 +22,15 @@ categories: TIL
 
 		- 클라이언트와 서버
 		- Alamofire, SwiftyJSON으로 데이터 통신	
+
 	* **테이블뷰(UITableView)**의 **동적인(dynamic)** 방법 사용해보기
 
 		- 모두의 책 리뷰 앱 만들어보기
+
 	* **컬렉션뷰(UICollectionView)** 사용해보기
 
 		- 모두의 링크 메모장 앱 만들어보기
+
 	* **랜덤 고양이 앱** 만들기
 
 
