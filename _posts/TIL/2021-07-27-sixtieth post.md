@@ -41,20 +41,17 @@ categories: TIL
 				* locationManager(_ manager, locations)    
 				 -> 위치 업데이트 후 지도에 위치를 나타내고, 위치 정보 추출하여 텍스트로 표시.
 					* CLGeocoder().reverseGeocodeLocation(locations, completionHandler : {...} )
-
 					
 			- 위도와 경도로 원하는 위치에 핀 설치   
 				* setAnnotation( latitudeValue, longitudeValue, span, title, subtitle )
 					- MKPointAnnotation()
 					- coordinate(중앙 위치)를 goLocation에서 받아온 값으로 설정  
-
 					
 			- 현재 위치 표시하기
 				* locationManager.startUpdatingLocation()    
 
 				
 		* **헷갈려서 따로 공부한 문법!**
-
 			- Optional
 			- self.
 			- Delegate
@@ -64,7 +61,6 @@ categories: TIL
 - **{알고리즘_스터디}**
 
 	* [13:00 - 14:00, 16:00 - 17:00] 알고리즘 2문제 풀기
-
 		- 시간 복잡도, 공간 복잡도 생각하기!
 
 	* 알고리즘 5주차 session 3 일단 내 문제 풀이까지 정리
