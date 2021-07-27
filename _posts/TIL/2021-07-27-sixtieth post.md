@@ -24,17 +24,14 @@ categories: TIL
 	* **iOS 앱 관련 책 맵 뷰로 지도 나타내기까지 공부 + 과제 수행! (헷갈리는 부분 꼼꼼하게)**
 		* **Map, MyHomePinMap**
 
-		
 			- 세그먼트 컨트롤 (Segemented Control)
 
 			- MKMapKit, MKMapView
 			
 			- 지도 보여주기 위한 델리게이트
-
 				* CLLocationManagerDelegate 채택, CLLocationManager
 			
 			- 위도와 경도로 원하는 위치 표시   
-
 				* goLocation( [위도값], [경도값], [확대 정도] )     
 				-> 위치 반환(CLLocationCoordinate2D)
 					* CLLocationCoordinate2DMake
@@ -47,14 +44,12 @@ categories: TIL
 
 					
 			- 위도와 경도로 원하는 위치에 핀 설치   
-
 				* setAnnotation( latitudeValue, longitudeValue, span, title, subtitle )
 					- MKPointAnnotation()
 					- coordinate(중앙 위치)를 goLocation에서 받아온 값으로 설정  
 
 					
 			- 현재 위치 표시하기
-
 				* locationManager.startUpdatingLocation()    
 
 				
