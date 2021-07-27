@@ -1,6 +1,6 @@
 ---
 
 layout: category
-title: Sparta_DevLog
+title: iOS_Study
 
 ---
