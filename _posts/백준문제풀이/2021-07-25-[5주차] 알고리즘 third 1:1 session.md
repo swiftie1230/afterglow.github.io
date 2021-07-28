@@ -1,5 +1,5 @@
 ---
-title: "[21.07.25] 알고리즘 5주차 - second 1:1 session"
+title: "[21.07.25] 알고리즘 5주차 - third 1:1 session"
 date: 2021-07-28 15:35:28 -0400
 toc: true
 toc_sticky: true
