@@ -6,7 +6,7 @@ toc_sticky: true
 categories: TIL
 ---
 
-[21.07.24]
+[21.07.25]
 
 # *오늘의 나 🙌*
 
@@ -21,14 +21,13 @@ categories: TIL
 
 	* [12:30 - 1:30] 알고리즘 session 2 진행
 
-		<div class="notice--primary" markdown="1">
+	<div class="notice--primary" markdown="1">
 			🌟 2 Session 의 <u>포인트</u>    
-			
-			- stack      
-			- extend()   
-			- .join()    
-			- Queue    
-		</div>
+			  - stack      
+			  - extend()   
+			  - .join()    
+			  - Queue    
+	</div>
 	
 	* [14:00 - 17:00] 알고리즘 정기 session
 
