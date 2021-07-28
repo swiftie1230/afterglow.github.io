@@ -70,7 +70,7 @@ If there is no such index, your function should return `-1`.
 	"""
 	```
 
-### My Solution(Explanation) & Code
+### Solution(Explanation) & Code
 
 사실 처음에 떠올랐던 방법은 매우 간단했다.    
 
@@ -91,7 +91,7 @@ If there is no such index, your function should return `-1`.
 	```
 
 	     
-### Final Code
+### My Final Code
 
 * First Raw-Thinking
 
@@ -142,7 +142,7 @@ If there is no such index, your function should return `-1`.
 	"""
 	```
 
-### My Solution(Explanation) & Code
+### Solution(Explanation) & Code
 
 두 번째 방법도 사실 간단하다!      
 
@@ -299,7 +299,7 @@ You can assume that there will never be more than one pair of strings `S1` and `
 	"""
 	```
 	
-### My Solution(Explanation) & Code
+### Solution(Explanation) & Code
 
 전체 Solution을 한번 정리해보자. 이 **문제의 핵심은 x의 길이를 1부터 찬찬히 늘려가며 y의 길이를 정하는 것**이다! 이 x와 y의 길이를 바탕으로 새로운 문자열을 만든 후, 이를 주어진 문자열과 비교하여 같다면 바로 return, 다르다면 이어서 검사하는 방법으로 풀 수 있다.    
 
