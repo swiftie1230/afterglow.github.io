@@ -20,14 +20,13 @@ categories: TIL
 	* [11:00 - 12:00] 알고리즘 session 3 진행
 
 	* [12:30 - 1:30] 알고리즘 session 2 진행
-
-	<div class="notice--primary" markdown="1">
-			🌟 2 Session 의 <u>포인트</u>    
-			  - stack      
-			  - extend()   
-			  - .join()    
-			  - Queue    
-	</div>
+	  <div class="notice--primary" markdown="1">
+		🌟 2 Session 의 <u>포인트</u>    
+			 - stack      
+			 - extend()   
+			 - .join()    
+			 - Queue    
+	  </div>
 	
 	* [14:00 - 17:00] 알고리즘 정기 session
 
