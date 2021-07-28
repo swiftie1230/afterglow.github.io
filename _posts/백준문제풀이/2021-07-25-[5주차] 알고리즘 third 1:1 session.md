@@ -17,7 +17,7 @@ categories: Algorithm_Problems
 ### 문제 설명
 
 Write a function that takes in a sorted array of distinct integers and returns the first index in the array that is equal to the value at that index.    
-In other words, your fucntion should return the minimum index where `index == array[index]`.    
+In other words, your function should return the minimum index where `index == array[index]`.    
 If there is no such index, your function should return `-1`.  
 
 ### 입출력 예
