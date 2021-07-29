@@ -22,6 +22,7 @@ categories: TIL
 
   * **화면 간 데이터 공유 방법!**
 
+
   * **iOS 앱 관련 책 페이지 이동하기 - 페이지 컨트롤까지 공부 + 과제 수행! (헷갈리는 부분 꼼꼼하게)**
 		* **PageControl, PageChangeApp**
 
