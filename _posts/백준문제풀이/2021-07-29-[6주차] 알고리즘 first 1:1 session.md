@@ -30,7 +30,7 @@ Find out the state of the asteroids after all collisions. If two asteroids meet,
 [입력]   
 
    ```python
-aseroids = [8, -8] 
+aseroids = [5, 10, -5] 
    ``` 
     
 [출력]   
