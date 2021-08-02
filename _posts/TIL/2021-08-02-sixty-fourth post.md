@@ -14,13 +14,13 @@ categories: TIL
 
 ### ☝🏻 <u>Golang_스터디</u>
 
-#### ✔️ [14:00 - 16:00] Ch12 공부한 책 내용 공부 및 과제 수행
+##### ✔️ [14:00 - 16:00] Ch12 공부한 책 내용 공부 및 과제 수행
 
 - 배열
 
 ### ☝🏻 <u>iOS_스터디</u>
 
-#### ✔️ iOS 앱 관련 책 '내비게이션 컨트롤러 이용해 화면 전환하기'까지 공부 + 과제 수행! (헷갈리는 부분 꼼꼼하게) : Navigation, Big/Small Navigation 
+##### ✔️ iOS 앱 관련 책 '내비게이션 컨트롤러 이용해 화면 전환하기'까지 공부 + 과제 수행! (헷갈리는 부분 꼼꼼하게) : Navigation, Big/Small Navigation 
 
 -  내비게이션 컨트롤러 (Navigation Controller)
 	- `Editor` → `Embed in` → `Navigation Controller`
@@ -40,7 +40,7 @@ categories: TIL
 				
 	- **`navigationController?.popViewController(animated: true)`** : 되돌아갈 때
 	-  **프로토콜 형태의 델리게이트**에 **추가하고 싶은 기능의 함수까지 추가**한 후, **구현**
-	-  `image`의 크기를 중간에 변환하고 싶을 경우, `constraint`를 되도록이면 만들어 놓지 말자!
+-  `image`의 크기를 중간에 변환하고 싶을 경우, `constraint`를 되도록이면 만들어 놓지 말자!
 
 
 
@@ -48,15 +48,15 @@ categories: TIL
 
 ### ☝🏻 <u>Golang_스터디</u>
 
-#### ✔️ Ch12 공부한 책 내용과 과제 수행 코드 공동레퍼지토리에 업로드     
+##### ✔️ Ch12 공부한 책 내용과 과제 수행 코드 공동레퍼지토리에 업로드     
 
-#### ✔️ 깃 블로그에 정리 내용 업로드! 
+##### ✔️ 깃 블로그에 정리 내용 업로드! 
      
     
 
 ### ☝🏻 <u>iOS_스터디</u>
 
-#### ✔️ iOS 앱 관련 책 공부하고 과제 수행한 것 레퍼지토리에 업로드     
+##### ✔️ iOS 앱 관련 책 공부하고 과제 수행한 것 레퍼지토리에 업로드     
 
 * Navigation
 * Big/Small Navigation
@@ -66,11 +66,11 @@ categories: TIL
 
 ## 🌝 𝕄𝕪 𝕆𝕨𝕟 
 
-#### ✔️ cake 픽업 with 뚱쓰 :)
+##### ✔️ cake 픽업 with 뚱쓰 :)
 
-#### ✔️ 개인목표 수정   
+##### ✔️ 개인목표 수정   
 
-#### ✔️ 내일 일정 수정
+##### ✔️ 내일 일정 수정
      
       
       
