@@ -66,7 +66,7 @@ categories: TIL
 
 ## 🌝 𝕄𝕪 𝕆𝕨𝕟 
 
-### ✔️ cake 픽업 with 뚱쓰 :)
+### ✔️ cake 픽업
 
 ### ✔️ 개인목표 수정   
 
