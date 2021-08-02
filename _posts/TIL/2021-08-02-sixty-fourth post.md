@@ -31,8 +31,10 @@ categories: TIL
 	- **새 View Controller 클래스 파일 연결하기** : `Cocoa Touch Class` → 스토리 보드에서 해당 뷰 컨트롤러와 연결
 
 	- **`override func prepare`** : 세그웨이를 이용하여 화면 전환하기 위해 사용.
+
 		<div class="notice--primary" markdown="1">
 		🌟 <strong><u>prepare 함수</u></strong>    
+    
 		: 해당 세그웨이가 해당 뷰 컨트롤러로 전환되기 직전에 호출되는 함수이며, 데이터 전달을 위해 사용된다.     
 		</div>
 				
