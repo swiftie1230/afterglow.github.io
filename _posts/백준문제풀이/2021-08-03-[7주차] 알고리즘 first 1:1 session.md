@@ -12,23 +12,23 @@ categories: Algorithm_Problems
 📜 [<u>2021.8.03</u> 오전 진행] 
 </div>  
 
-## 💡 [백준 - 괄호](https://www.acmicpc.net/problem/9012) 
+## 💬 [백준 - 괄호](https://www.acmicpc.net/problem/9012) 
 
-### 문제 설명
+### ✏️ 문제 설명
 
 괄호 문자열(Parenthesis String, PS)은 두 개의 괄호 기호인 ‘(’ 와 ‘)’ 만으로 구성되어 있는 문자열이다. 그 중에서 괄호의 모양이 바르게 구성된 문자열을 올바른 괄호 문자열(Valid PS, VPS)이라고 부른다. 한 쌍의 괄호 기호로 된 “( )” 문자열은 기본 VPS 이라고 부른다. 만일 x 가 VPS 라면 이것을 하나의 괄호에 넣은 새로운 문자열 “(x)”도 VPS 가 된다. 그리고 두 VPS x 와 y를 접합(concatenation)시킨 새로운 문자열 xy도 VPS 가 된다. 예를 들어 “(())()”와 “((()))” 는 VPS 이지만 “(()(”, “(())()))” , 그리고 “(()” 는 모두 VPS 가 아닌 문자열이다. 
 
 여러분은 입력으로 주어진 괄호 문자열이 VPS 인지 아닌지를 판단해서 그 결과를 YES 와 NO 로 나타내어야 한다. 
 
-### 입력
+### ✏️ 입력
 
 입력 데이터는 표준 입력을 사용한다. 입력은 T개의 테스트 데이터로 주어진다. 입력의 첫 번째 줄에는 입력 데이터의 수를 나타내는 정수 T가 주어진다. 각 테스트 데이터의 첫째 줄에는 괄호 문자열이 한 줄에 주어진다. 하나의 괄호 문자열의 길이는 2 이상 50 이하이다. 
 
-### 출력
+### ✏️ 출력
 
 출력은 표준 출력을 사용한다. 만일 입력 괄호 문자열이 올바른 괄호 문자열(VPS)이면 “YES”, 아니면 “NO”를 한 줄에 하나씩 차례대로 출력해야 한다.
 
-### 입출력 예
+### ✏️ 입출력 예
 
 <div class="notice--primary" markdown="1">
 🌝 <u>입출력 예 #1</u>     
@@ -78,7 +78,7 @@ NO
    ```
 </div> 
 
-### Question Clarifying & Time, Space Complexity 
+### ✏️ Question Clarifying & Time, Space Complexity 
 
 
    ```python
@@ -109,7 +109,7 @@ O(k) ->  stack의 최대 크기, 최악의 경우 O(N)
 """
    ```
 
-### My Solution(Explanation) & Code
+### ✏️ My Solution(Explanation) & Code
 
 이 문제는 사실 전에 `LeetCode`에서 풀어봤던 문제랑 비슷해서 해결방법을 찾는 것 자체는 어렵지 않았음!       
 다만 작은 실수를 곳곳에 해 놓아서 쬐끔 생각보다 오래 걸렸음. ㅇㅅㅇ   
@@ -195,8 +195,7 @@ if flag == True:
 		print("NO")
    ```   	      
    
-### Final Code
-
+### ✏️ Final Code
 
    ```python
 import sys
@@ -243,9 +242,9 @@ def Solution():
    ```
      
 
-## 💡 [백준 - 어두운 굴다리](https://www.acmicpc.net/problem/17266)
+## 💬 [백준 - 어두운 굴다리](https://www.acmicpc.net/problem/17266)
 
-### 문제 설명
+### ✏️ 문제 설명
 
 인하대학교 후문 뒤쪽에는 어두운 굴다리가 있다. 겁쟁이 상빈이는 길이 조금이라도 어둡다면 가지 않는다. 따라서 굴다리로 가면 최단거리로 집까지 갈수 있지만, 굴다리는 어둡기 때문에 빙빙 돌아서 집으로 간다. 안타깝게 여긴 인식이는 굴다리 모든 길 0~N을 밝히게 가로등을 설치해 달라고 인천광역시에 민원을 넣었다. 인천광역시에서 가로등을 설치할 개수 M과 각 가로등의 위치 x들의 결정을 끝냈다. 그리고 각 가로등은 높이만큼 주위를 비출 수 있다. 하지만 갑자기 예산이 부족해진 인천광역시는 가로등의 높이가 높을수록 가격이 비싸지기 때문에 최소한의 높이로 굴다리 모든 길 0~N을 밝히고자 한다. 최소한의 예산이 들 높이를 구하자. **단 가로등은 모두 높이가 같아야 하고, 정수이다.**   
 
@@ -263,7 +262,7 @@ def Solution():
 
 <img width="512" alt="스크린샷 2021-08-03 오후 10 08 22" src="https://user-images.githubusercontent.com/63195670/128020782-e29878c4-3c14-41a5-9b2a-3d6bc44e06e3.png">   
 
-### 입력 
+### ✏️입력 
 
 첫 번째 줄에 굴다리의 길이 N 이 주어진다. (1 ≤ N ≤ 100,000)   
 
@@ -273,11 +272,11 @@ def Solution():
 
 가로등의 위치 x는 오름차순으로 입력받으며 가로등의 위치는 중복되지 않으며, 정수이다.   
 
-### 출력
+### ✏️ 출력
 
 굴다리의 길이 N을 모두 비추기 위한 가로등의 최소 높이를 출력한다.   
 
-### 입출력 예
+### ✏️ 입출력 예
 
 <div class="notice--primary" markdown="1">
 🌝 <u>입출력 예 #1</u>     
@@ -321,7 +320,7 @@ def Solution():
 
 
 
-### Question Clarifying & Time, Space Complexity
+### ✏️ Question Clarifying & Time, Space Complexity
 
    ```python
 """
@@ -356,7 +355,7 @@ O(n)
 """
    ```
 	
-### My Solution(Explanation) & Code
+### ✏️ My Solution(Explanation) & Code
 
 처음 생각나는 방법은 단순히 각 가로등의 위치를 검사할 때, 그 전 가로등과의 거리를 비교해서 가장 먼 거리를 업데이트한 후, 최종 리턴하는 방식이였다.      
  
@@ -429,7 +428,7 @@ beforeX = curr
 print(maxDistance)
    ```
 
-### My Final Code
+### ✏️ My Final Code
 	
    ```python
 import sys
@@ -477,7 +476,7 @@ def Solution():
 바로 **이분 탐색**<sup>Binary Search</sup>을 이용하는 것!   
 사실 이 문제는 이분 탐색을 이용하는 기본문제이지만, 왜인지 찾아보면 위 방법으로 푼 경우가 더 많았던....🤔    
 
-### Question Clarifying & Time, Space Complexity Using Binary Search
+### ✏️ Question Clarifying & Time, Space Complexity Using Binary Search
 
    ```python
 """
@@ -512,7 +511,7 @@ O(N)
 """
    ```
 	
-### My Solution(Explanation) & Code Using Binary Search
+### ✏️ My Solution(Explanation) & Code Using Binary Search
 
 이분 탐색 방법도 사실 어렵지 않다.       
 
@@ -632,7 +631,7 @@ def Solution(positions, middle):
 print(maxDistance)
    ```
 
-### My Final Code Using Binary Search
+### ✏️ My Final Code Using Binary Search
 	
    ```python
 import sys
@@ -674,7 +673,7 @@ print(maxDistance)
  - 이진탐색<sup>Binary Search</sup>     
 </div>
 
-## 참고 사이트  
+## 🔗 참고 사이트  
 
 - [Binary Search 관련 참고 사이트 1](https://riswell1992.tistory.com/4)     
 - [Binary Search 관련 참고 사이트 2](https://wayhome25.github.io/cs/2017/04/15/cs-16/)
