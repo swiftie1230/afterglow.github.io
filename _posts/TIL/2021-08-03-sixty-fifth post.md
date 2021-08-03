@@ -66,14 +66,13 @@ _
 아 맞다. 나도 얼른 백신 맞고 싶다!    
 주변에서 다들 하나 둘 잔여 백신 잡아서 맞길래 나도 시도 함 해볼까 생각중.     
 약간 게임하다가 맘 비우고 시도하면 오히려 잘 된다 하던데, 해봐 한번? 👀            
-
 _
 
 # 오늘의_글귀 📜
 
 	Change isn't suppose to be comfortable or convenient.
 	
-	If you want chane, be prepared to feel awkward.
+	If you want change, be prepared to feel awkward.
 
 <div class="notice--primary" markdown="1">
 오늘의 <strong>TIL</strong>은 여기까지!     
