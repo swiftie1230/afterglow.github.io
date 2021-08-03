@@ -28,7 +28,7 @@ categories: Algorithm_Problems
 
 출력은 표준 출력을 사용한다. 만일 입력 괄호 문자열이 올바른 괄호 문자열(VPS)이면 “YES”, 아니면 “NO”를 한 줄에 하나씩 차례대로 출력해야 한다.
 
-### 💬 입출력 예
+### 💭 입출력 예
 
 <div class="notice--primary" markdown="1">
 🌝 <u>입출력 예 #1</u>     
@@ -276,7 +276,7 @@ def Solution():
 
 굴다리의 길이 N을 모두 비추기 위한 가로등의 최소 높이를 출력한다.   
 
-### 💬 입출력 예
+### 💭 입출력 예
 
 <div class="notice--primary" markdown="1">
 🌝 <u>입출력 예 #1</u>     
