@@ -14,7 +14,7 @@ categories: Algorithm_Problems
 
 ## 💬 [백준 - 다리놓기](https://www.acmicpc.net/problem/1010) 
 
-### ✏️ 문제 설명
+### 📄 문제 설명
 
 재원이는 한 도시의 시장이 되었다. 이 도시에는 도시를 동쪽과 서쪽으로 나누는 큰 일직선 모양의 강이 흐르고 있다. 하지만 재원이는 다리가 없어서 시민들이 강을 건너는데 큰 불편을 겪고 있음을 알고 다리를 짓기로 결심하였다. 강 주변에서 다리를 짓기에 적합한 곳을 사이트라고 한다. 재원이는 강 주변을 면밀히 조사해 본 결과 강의 서쪽에는 `N`개의 사이트가 있고 동쪽에는 `M`개의 사이트가 있다는 것을 알았다. (`N ≤ M`)
 
@@ -22,15 +22,15 @@ categories: Algorithm_Problems
 
 ![image](https://user-images.githubusercontent.com/63195670/128296449-92ce0a55-65c3-4313-99c9-fb190f7290ae.png) 
 
-### ✏️ 입력
+### 📁 입력
 
 입력의 첫 줄에는 테스트 케이스의 개수 `T`가 주어진다. 그 다음 줄부터 각각의 테스트케이스에 대해 강의 서쪽과 동쪽에 있는 사이트의 개수 정수 `N`, `M` (`0 < N ≤ M < 30`)이 주어진다.
 
-### ✏️ 출력
+### 📁 출력
 
 각 테스트 케이스에 대해 주어진 조건하에 다리를 지을 수 있는 경우의 수를 출력한다.
 
-### ✏️ 입출력 예
+### 💭 입출력 예
 
 <div class="notice--primary" markdown="1">
 🌝 <u>입출력 예 #1</u>     
@@ -323,7 +323,7 @@ for i in range(T):
 
 ## 💬 [LeetCode - Decode String](https://leetcode.com/problems/decode-string/)
 
-### ✏️ 문제 설명
+### 📄 문제 설명
 
 Given an encoded string, return its decoded string.
 
@@ -333,7 +333,7 @@ You may assume that the input string is always valid; No extra white spaces, squ
 
 Furthermore, you may assume that the original data does not contain any digits and that digits are only for those repeat numbers, `k`. For example, there won't be input like `3a` or `2[4]`.     
 
-### ✏️ 입출력 예
+### 💭 입출력 예
 
 <div class="notice--primary" markdown="1">
 🌝 <u>입출력 예 #1</u>     
