@@ -143,6 +143,7 @@ print(math.factorial(M) // (math.factorial(M-N) * math.factorial(N)))
 <strong>factorial()</strong>은 인자의 팩토리얼 값을 반환하며, 빠르다.     
 
 특히 <code>math</code> 라이브러리에 있는 함수들은 <code>C</code>로 implement 되어 있는 경우가 많아 빠름!    
+_    
 	    
 📌 <strong><u>순열</u> : <u>permutations()</u></strong>         
 
@@ -167,7 +168,8 @@ result = list(permutations(data, 3))
 
 print(result) # [('A', 'B', 'C'), ('A', 'C', 'B'), ... , ('C', 'B', 'A')]
    ```
-
+_      
+       
 📌 <strong><u>조합</u> : <u>combinations()</u></strong>    
 
 순열을 계산하는 함수 역시 <code>itertools</code>라는 라이브러리 안에 존재한다.    
@@ -500,8 +502,9 @@ print(ex_01.isdigit())
 print(ex_02.isdigit()) # 기호가 포함되여 False
 print(ex_03.isdigit()) # 문자가 포함되어 False
 print(ex_04.isdigit()) # 공백이 포함되어 False
-   ```
-	    
+   ```    
+_      
+
 📌 <strong><u>isalpha() 함수</u> : <u>알파벳(또는 한글)인지 확인 가능</u></strong>         
 
 문자열의 구성문자가 알파벳, 또는 한글인지 확인할 때 사용할 수 있는 함수이다.    
