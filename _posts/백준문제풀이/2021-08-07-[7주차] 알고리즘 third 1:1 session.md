@@ -463,7 +463,7 @@ class Solution:
    ```
    	    
 <div class="notice--primary" markdown="1">
-🌟 <strong>3 Session 의 <u>포인트</u></strong>    
+🌟 <strong>Session 3의 <u>포인트</u></strong>    
 
  - split()   
  - strip(), lstrip(), rstrip()      
