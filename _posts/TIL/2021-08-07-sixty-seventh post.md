@@ -21,10 +21,8 @@ categories: TIL
 ✔️ **이번 주차 알고리즘 session 3 문제들 풀고 분석 (시간복잡도, 공간복잡도 고려해서!)** 
 
 ### ☝🏻 <u>iOS_스터디</u>
-
-#### ✔️ iOS 앱 관련 책 '테이블 뷰 컨트롤러 이용해 할 일 목록 만들기'까지 공부 + 과제 수행! (헷갈리는 부분 꼼꼼하게) : Table, TableWithIconPicker 
-
-##### 📑 **<u>테이블 뷰 컨트롤러 (TableView Controller)</u>**
+✔️ iOS 앱 관련 책 '테이블 뷰 컨트롤러 이용해 할 일 목록 만들기'까지 공부 + 과제 수행! (헷갈리는 부분 꼼꼼하게) : Table, TableWithIconPicker 
+📑 **<u>테이블 뷰 컨트롤러 (TableView Controller)</u>**
 - `Library` → `TableView Controller`
 	
 - `Editor` → `Embed in` → `Navigation Controller`
@@ -58,7 +56,7 @@ categories: TIL
 	<div class="notice--primary" markdown="1">
 	🌟 <strong><u>버튼 위치</u></strong>    
     
-		: 왼쪽에 추가하고 싶으면 <code>right</code>를 <code>left</code>로 수정하기만 하면 된다! 
+	: 왼쪽에 추가하고 싶으면 <code>right</code>를 <code>left</code>로 수정하기만 하면 된다! 
 	</div>
 
 - **`override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath){}`** : 목록 옮기는 기능의 함수 (`remove` 한 후, 새로운 위치에 `insert` 하는 식으로 옮기도록 블럭 안에서 구현해주면 된다.)
@@ -66,12 +64,12 @@ categories: TIL
 - **_ = navigationController?.popViewController(animated: true)** : 루트 뷰 컨트롤러로 돌아가는 코드 
 - **override func viewWillAppear(_ animated: Bool) { [TableView 아울렛 변수].reloadData() }** : 테이블 뷰를 다시 불러옴으로써, 추가된 내용을 목록으로 불러들이는 기능을 수행한다.
 
-##### 📑 <u>문법</u>
+📑 <u>문법</u>
 - **프로토콜** : 단순한 **선언 형태의 설계도**라고 할 수 있다. 단, 이 프로토콜을 만들었다면 이를 **상속받은 클래스는 반드시 그 내의 함수를 만들어야 하며, 그렇지 않으면 에러가 발생**한다!
 
 -  **자료형의 최댓값 / 최솟값** 
 
-##### 📑 <u>추가 지식</u>
+📑 <u>추가 지식</u>
 - **자동 레이아웃 정의 및 설정 방법**
 	- 미리보기 사용 : `[Adjust Editor Option]` → `[Preview]`
 
@@ -100,11 +98,11 @@ categories: TIL
 
 ### ☝🏻 <u>iOS_스터디</u>
 
-#### ✔️ iOS 앱 관련 책 공부하고 과제 수행한 것 레퍼지토리에 업로드     
+✔️ iOS 앱 관련 책 공부하고 과제 수행한 것 레퍼지토리에 업로드     
 
-##### 📁 Table
+📁 Table
 
-##### 📁 TableWithIconPicker (Table_mission)
+📁 TableWithIconPicker (Table_mission)
 
 
 ## 🌝 𝕄𝕪 𝕆𝕨𝕟 
