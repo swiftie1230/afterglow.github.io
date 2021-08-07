@@ -21,7 +21,7 @@ categories: TIL
 ✔️ **이번 주차 알고리즘 session 3 문제들 풀고 분석 (시간복잡도, 공간복잡도 고려해서!)** 
 
 ### ☝🏻 <u>iOS_스터디</u>
-✔️ iOS 앱 관련 책 '테이블 뷰 컨트롤러 이용해 할 일 목록 만들기'까지 공부 + 과제 수행! (헷갈리는 부분 꼼꼼하게) : Table, TableWithIconPicker 
+✔️ iOS 앱 관련 책 '테이블 뷰 컨트롤러 이용해 할 일 목록 만들기'까지 공부 + 과제 수행! (헷갈리는 부분 꼼꼼하게) : Table, TableWithIconPicker     
 📑 **<u>테이블 뷰 컨트롤러 (TableView Controller)</u>**
 - `Library` → `TableView Controller`
 	
