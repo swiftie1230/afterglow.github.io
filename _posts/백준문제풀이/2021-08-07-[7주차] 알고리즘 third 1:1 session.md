@@ -138,33 +138,33 @@ O(N) -> 실제 저장되는 메모리 크기는 일정! (remain : 10)
 
 이 문제는 `secret`와 `guess`의 문자를 하나씩 비교해가면서 위치와 숫자 모두 같으면 `bulls`수를 증가시키고, 아니라면 `remain` 딕셔너리에서 해당 글자에 대한 `value` 숫자를 증가시켜 준 후, `cows` 의 수는 `remain`의 `value`에서 더 작은 값을 더하여 구하는 것이 핵심이다.            
    
-그럼 일단 `Solution` 클래스에서, secret와 guess를 파라미터로 하는 `getHint`함수를 정의해주자.       
+그럼 일단 `Solution` 클래스에서, `secret`와 `guess`를 파라미터로 하는 `getHint`함수를 정의해주자.       
  
    ```python
 class Solution:
     def getHint(self, secret, guess): 
    ```
 
-그 후, 한자리 숫자는 0-9까지 총 10개 뿐이므로, 한자리 숫자를 string 형태로 바꾼 값을 key로 하는 remain 딕셔너리를 선언하고 [0, 0]으로 초기화해주자..    
+그 후, 한자리 숫자는 0-9까지 총 10개 뿐이므로, 한자리 숫자를 string 형태로 바꾼 값을 key로 하는 `remain` 딕셔너리를 선언하고 `[0, 0]`으로 초기화해주자..    
 
 <div class="notice--primary" markdown="1">
 🌝 <strong><u>여기서 잠깐!</u> 왜 [0, 0]으로 초기화해주는 걸까?</strong>        
 
-배열의 첫번째 원소는 secret에서 bulls가 아니라서 일단 남겨놓은 해당 문자의 개수를, 두번째 원소는 guess에서의 bulls가 아니라서 일단 남겨놓은 해당 문자의 개수를 나타낸다!    
+배열의 첫번째 원소는 <code>secret</code>에서 <code>bulls</code>가 아니라서 일단 남겨놓은 해당 문자의 개수를, 두번째 원소는 <code>guess</code>에서의 <code>bulls</code>가 아니라서 일단 남겨놓은 해당 문자의 개수를 나타낸다!    
 </div>
 
    ```python
 remain = {str(i):[0, 0] for i in range(10)}
    ```
 
-이제 bulls의 개수를 가리킬 변수 `bullDigits`와 cows의 개수를 가리킬 변수 `cowsDigits`를 선언 후 초기화해주자.             
+이제 `bulls`의 개수를 가리킬 변수 `bullDigits`와 `cows`의 개수를 가리킬 변수 `cowsDigits`를 선언 후 초기화해주자.             
 
    ```python
 bullDigits = 0
 cowsDigits = 0
    ```
 
-그 이후로는 전체 index를 돌면서 해당 문자가 bulls인지를 검토한 후, 맞다면 bullDigit를 1 증가시켜 주고, 아니라면 remain 딕셔너리에서 secret과 guess의 해당 index의 문자를 key로 하는 value를 1씩 증가시켜 주면 된다.     
+그 이후로는 전체 `index`를 돌면서 해당 문자가 `bulls`인지를 검토한 후, 맞다면 `bullDigit`를 `1` 증가시켜 주고, 아니라면 `remain` 딕셔너리에서 `secret`과 `guess`의 해당 `index`의 문자를 `key`로 하는 `value`를 `1`씩 증가시켜 주면 된다.     
 
    ```python
 for i in range(len(guess)):
@@ -175,7 +175,7 @@ for i in range(len(guess)):
 		remain[guess[i]][1] += 1
    ```
 
-다음으로, 각각의 keys()에 대한 value를 돌면서 더 작은 값을 cowsDigits에 더해주자!     
+다음으로, 각각의 `keys()`에 대한 `value`를 돌면서 더 작은 값을 `cowsDigits`에 더해주자!     
 
    ```python
 for i in remain.keys():
@@ -227,7 +227,7 @@ It means there are `n` files (`f1.txt, f2.txt ... fn.txt`) with content (`f1_con
 
 The output is a list of groups of duplicate file paths. For each group, it contains all the file paths of the files that have the same content. A file path is a string that has the following format:
 
-`"directory_path/file_name.txt"`     
+- `"directory_path/file_name.txt"`     
 
 ### 💭 입출력 예
 
