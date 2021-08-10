@@ -62,7 +62,7 @@ _
 
 # 오늘의_SPEECH 📄
 
-##"JUST DO!"
+## "JUST DO!"
 
 진짜...Motivating 🤭
 
