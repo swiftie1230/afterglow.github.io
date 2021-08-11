@@ -26,12 +26,12 @@ categories: TIL
 	* 비밀번호 가리기
 		- **`[textField 아울렛 변수].isSecureTextEntry = [Boolean값]`**    
 
-		<div class="notice--primary" markdown="1">
-		🌟 <strong><u>오늘 만났던 오류!</u> : <u>NSUnknownKeyException</u></strong>    
+    <div class="notice--primary" markdown="1">
+	🌟 <strong><u>오늘 만났던 오류!</u> : <u>NSUnknownKeyException</u></strong>    
 
- 		스토리보드에서 참조하고 있는 오브젝트가 지워지는 등 제대로 된 매칭이 되지 않았을 경우 발생한다!         
- 		<a href="https://blog.naver.com/akj61300/220063207476">참고했던 링크 :)</a>
-		</div>
+ 	스토리보드에서 참조하고 있는 오브젝트가 지워지는 등 제대로 된 매칭이 되지 않았을 경우 발생한다!         
+ 	<a href="https://blog.naver.com/akj61300/220063207476">참고했던 링크 :)</a>
+	</div>
 
 - 서버 연결 수정 작업 시작 
 
