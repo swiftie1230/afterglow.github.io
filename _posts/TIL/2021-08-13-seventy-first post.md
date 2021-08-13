@@ -29,7 +29,7 @@ categories: TIL
 	💡 <strong><u>추가 지식</u> : <u>Bundle.main.url(for Resource: , withExtension: )</u></strong>    
 	    
 	우리가 관심 있는 번들이 있다면 그것이 무엇이든 Bundle.main 속성 타입을 사용해서 접근할 수 있다.     
-	대부분의 경우 url(forResource:withExtension:) (또는 비슷한 것 중 하나)를 사용해서 특정 자원의 위치를 알아낼 수 있음!      
+	대부분의 경우 <code>url(forResource:withExtension:)</code> (또는 비슷한 것 중 하나)를 사용해서 특정 자원의 위치를 알아낼 수 있음!      
 	
 	예를 들어 만약 우리의 앱 번들이 Photo.jpg 라는 이름을 가진 파일을 포함하고 있다면 다음과 같이 URL을 만들어서 접근할 수 있다는 뜻이다.     
 		
