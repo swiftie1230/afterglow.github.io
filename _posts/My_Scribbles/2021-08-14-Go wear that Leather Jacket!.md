@@ -72,11 +72,13 @@ categories: My_Scribbles
 <img src="https://user-images.githubusercontent.com/63195670/129449394-44127ba0-29c6-487c-9296-f4d383014203.jpg" height="400px" width="300px"> <img src="https://user-images.githubusercontent.com/63195670/129450950-ec41465a-e390-4787-8c46-4dbf857f4feb.jpg" height="400px" width="300px">     
 
 하..이건. 저 때 인스타 스토리에도 올렸었지.     
-아니- 뭔 옆에서 1인 공연장을 차렸어....곡 선정도 참. 완벽했음^^        
+아니- 뭔 옆에서 1인 공연장을 차렸어....곡 선정도 참. 완벽했음 ^^        
 진짜 거짓말 하나 안 보태서 40분은 거뜬히 혼자 콘서트 하더라..         
 자세도 참 다양하게 하길래 심의 규정상 발만 잘라서 올렸던.       
 
-지금도 가끔 옆에서 또 해볼까? 자꾸 그러는데...아니...My Ears 보호 좀..
+움...웃겼고 재밌긴 했다만..    
+지금도 가끔 옆에서 또 해볼까? 자꾸 그러는데...고건 아니야...     
+My Ears 보호 좀..plz     
 
 <img src="https://user-images.githubusercontent.com/63195670/129449095-d99336fe-34f9-4e15-87ed-c737e559839e.jpg" height="500px" width="500px">      
 
