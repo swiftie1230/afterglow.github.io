@@ -29,14 +29,17 @@ categories: My_Scribbles
 <img src="https://user-images.githubusercontent.com/63195670/129449197-f678cc0a-e8a6-4739-a13b-01fe0ed83bfe.jpg" height="500px" width="300px"> <img src="https://user-images.githubusercontent.com/63195670/129449200-cdfa0372-23b2-42a9-9255-f2f77fc8f7db.jpg" height="500px" width="300px">     
 
 이 사진은 전에 뚱쓰 마감 끝나는 시간 기다리면서 찍었던 사진들. 특별한 이유는 없고, 그냥 케이크가 귀여워서 찍었던 것 같다.       
+나가는 길에 저거 귀엽다고 말했다가 한심한 눈초리 받았던 8ㅅ8     
 강아지는 생일 꼬깔이라 매장에 아직까지 있을 텐데 저 케이크는..움..지금은 없으려나 🤔    
 무튼 너무 귀여웠음 :)     
 
 <img src="https://user-images.githubusercontent.com/63195670/129449190-6026c4f5-4704-4315-8f81-bf00b75f9a79.jpg" height="500px" width="300px"> <img src="https://user-images.githubusercontent.com/63195670/129449201-46253bdc-2824-4acc-8ec3-4f37b560bbd5.jpg" height="500px" width="300px">     
 
-이건 우리 집 근처 풍경(?). 첫번째 사진은 석양&노을이 너무 예뻐서 집 드가는 길에 찍었고, 두 번째 사진은 아마 근처 한 바퀴 산책 겸 돌다가 구름이 너무 예뻐서 찍었던 것 같다.      
+이건 우리 집 근처 풍경(?).    
+첫번째 사진은 석양&노을이 너무 예뻐서 집 드가는 길에 찍었고, 두 번째 사진은 아마 근처 한 바퀴 산책 겸 돌다가 구름이 너무 예뻐서 찍었던 것 같다.      
 와..근데 노을 진짜 예쁘네. 🤭    
-백신 맞고, 코로나 좀 잠잠해지면, 시간 내서 꼭 공원이나 강가에서 여유 부리며 노을 보고 싶다. 이 때 캔 맥주 하나씩은 필수! 당연하G 🍻   
+백신 맞고, 코로나 좀 잠잠해지면, 시간 내서 꼭 공원이나 강가에서 여유 부리며 노을 보고 싶다. 이 때 캔 맥주 하나씩은 필수! 당연하G 🍻    
+언제쯤..맘 편하게 그럴 수 있을까 진짜. T^T     
 
 <img src="https://user-images.githubusercontent.com/63195670/129449195-8dd000b9-8737-440e-99ed-7156e2a2ae48.jpg" height="500px" width="300px">      
 
