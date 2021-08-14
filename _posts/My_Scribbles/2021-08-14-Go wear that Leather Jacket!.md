@@ -71,7 +71,7 @@ categories: My_Scribbles
 초코송이 두 개나 사왔던 것 같았는데도 다 먹었을 때 아쉬웠던. 진짜 후회할 수가 없는 조합임. T^T     
 와중에 저 때 초코송이에, 닭볶음에, 맥주까지. 우리 참 푸짐하게도 먹었구나.       
 
-<img src="https://user-images.githubusercontent.com/63195670/129449394-44127ba0-29c6-487c-9296-f4d383014203.jpg" height="500px" width="400px"> <img src="https://user-images.githubusercontent.com/63195670/129450950-ec41465a-e390-4787-8c46-4dbf857f4feb.jpg" height="500px" width="400px">     
+<img src="https://user-images.githubusercontent.com/63195670/129449394-44127ba0-29c6-487c-9296-f4d383014203.jpg" height="450px" width="300px"> <img src="https://user-images.githubusercontent.com/63195670/129450950-ec41465a-e390-4787-8c46-4dbf857f4feb.jpg" height="450px" width="300px">     
 
 하..이건. 저 때 인스타 스토리에도 올렸었지.     
 아니- 뭔 옆에서 1인 공연장을 차렸어....곡 선정도 참. 완벽했음 ^^        
