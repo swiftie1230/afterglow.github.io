@@ -21,7 +21,6 @@ categories: TIL
 #### ✔️ iOS 앱 관련 책 '비디오 재생 앱 만들기'까지 공부 + 과제 수행! (헷갈리는 부분 꼼꼼하게) : MoviePlayer, AnotherFormatMoviePlayer     
 
 📑 **<u>비디오 재생 앱 기능 구현</u> : <u>AVPlayerViewController</u>**    
-
 - 비디오 관련 **헤더 파일 추가** : **`import AVKit`** 
 	
 - **비디오 파일명**을 사용하여 비디오가 저장된 앱 내부의 **파일 경로**를 받아온다. / **외부 비디오일 경우 외부 링크**! → 파일명을 **`NSURL` 형식**으로 변경한다. → **`AVPlayerViewController`의 인스턴스 생성**후, **비디오 URL로 초기화**한다. → **`AVPlayerViewController`**의 **`player`**에 **할당**한다.
@@ -40,7 +39,6 @@ categories: TIL
 ### ☝🏻 <u>iOS_스터디</u>
 
 #### ✔️ **iOS 앱 관련 책 공부하고 과제 수행한 것 레퍼지토리에 업로드**     
-
  📁 MoviePlayer
  
  📁 AnotherFormatMoviePlayer (MoviePlayer_mission)
