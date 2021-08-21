@@ -16,7 +16,7 @@ categories: TIL
 
 ✔️ **[15:00 - 17:00] 시스템 디자인 정기 세션**
 
-### ☝🏻 <u>iOS_스터디</u>
+### ☝🏻 <u>iOS_스터디</u>   
 #### ✔️ iOS 앱 관련 책 '비디오 재생 앱 만들기'까지 공부 + 과제 수행! (헷갈리는 부분 꼼꼼하게) : MoviePlayer, AnotherFormatMoviePlayer     
 
 📑 **<u>비디오 재생 앱 기능 구현</u> : <u>AVPlayerViewController</u>**    
@@ -35,8 +35,7 @@ categories: TIL
 
 
 ## 🛠️ 𝔾𝕚𝕥𝕙𝕦𝕓  	
-### ☝🏻 <u>iOS_스터디</u>
-
+### ☝🏻 <u>iOS_스터디</u>  
 #### ✔️ **iOS 앱 관련 책 공부하고 과제 수행한 것 레퍼지토리에 업로드**     
 
  📁 MoviePlayer
