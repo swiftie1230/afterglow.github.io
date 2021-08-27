@@ -91,20 +91,21 @@ context.setStrokeColor(UIColor.red.cgColor)
 
 - 그린 **도형 채우기** (Fill)   
  
-	   ```swift
-	  context.setFillColor(UIColor.red.cgColor)	// 채우고 싶은 색 정하기 
+  ```swift
+  context.setFillColor(UIColor.red.cgColor)	// 채우고 싶은 색 정하기 
 	   
-	  // 사각형 채울 시    
-	  let rectangle = CGRect(...)
-	  context.fill(rectangle)
+	// 사각형 채울 시    
+	let rectangle = CGRect(...)
+	context.fill(rectangle)
 	
-	  // 원이나 타원 채울 시
-	  let circle = CGRect(...)
-	  context.fillEllipse(in: circle)
+	// 원이나 타원 채울 시
+	let circle = CGRect(...)
+	context.fillEllipse(in: circle)
 	
-	  // 삼각형 채울 시
-	  context.fillPath()
-	   ```
+	// 삼각형 채울 시
+	context.fillPath()
+  ```
+     
 이후로는 현재 콘텍스트에 그려진 이미지를 가지고 와서 이미지 뷰에 나타낸 후,    
 
    ```swift
