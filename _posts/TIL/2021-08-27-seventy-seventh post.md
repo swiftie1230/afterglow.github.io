@@ -17,7 +17,7 @@ categories: TIL
 
 #### ✔️ **iOS 두잇 책 '탭과 터치 사용해 스케치 앱 만들기' 부분 공부 + 과제 수행!**     
 
-##### 📑 **<u>탭 & 터치 기능 구현하기</u>**    
+##### 📑 <u>탭 & 터치 기능 구현하기</u>   
 
 📌 <u>멀티 터치 활성화</u>      
 
@@ -52,7 +52,7 @@ override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) 
 }
    ```
 
-📑 **<u>추가 지식</u>**    
+##### 📑 <u>추가 지식</u>    
 
 - **화면 터치시 키보드 내리기 : [참고 링크](https://zeddios.tistory.com/132 )**
 
@@ -66,8 +66,8 @@ override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) 
    ```    
 - **Segemented Control**
 
-- **`String` → `CGFloat`로 변환하기** : `CGFloat(Double(String값) ?? 0.0)
-`
+- **`String` → `CGFloat`로 변환하기** : `CGFloat(Double(String값) ?? 0.0)`
+
 ## 🛠️ 𝔾𝕚𝕥𝕙𝕦𝕓  	
 
 ### ☝🏻 <u>iOS_스터디</u>
