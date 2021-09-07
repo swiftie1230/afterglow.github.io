@@ -66,11 +66,12 @@ The establishment and use of sound engineering principles in order to <strong><u
 
 #### ✔️ **iOS 두잇 책 '스와이프 제스처 사용하기' 부분 공부 + 과제 수행!**     
 
-##### 📑 <u>스와이프 제스처 사용하기</u> : <u>UISwipeGestureRecognizer</u>    
+##### 📑 <u>스와이프 제스처 사용하기</u> : <u>UISwipeGestureRecognizer</u>     
+
 
 📌 <strong><u>스와이프 제스처 인식</u></strong>      
 
-: `UISwipeGestureRecognizer` 클래스 상수의 direction 속성에 원하는 방향을 설정 → 뷰 객체의 `addGestureRecognizer` 메서드를 사용해 원하는 방향의 스와이프 제스처를 등록        
+`UISwipeGestureRecognizer` 클래스 상수의 direction 속성에 원하는 방향을 설정 → 뷰 객체의 `addGestureRecognizer` 메서드를 사용해 원하는 방향의 스와이프 제스처를 등록        
 
    ```swift
 // 위쪽 방향의 스와이프 제스처 인식 부분 구현 
@@ -81,7 +82,7 @@ self.view.addGestureRecognizer(swipeUp)
 
 📌 <strong><u>액션 메서드 구현하기</u></strong>    
 
-: 스와이프 제스처를 행했을 때 실행하고 싶은 부분을 구현한 메서드를 의미한다. 정말 실행하고 싶은 것들을 구현해 놓으면 됨.              
+스와이프 제스처를 행했을 때 실행하고 싶은 부분을 구현한 메서드를 의미한다. 정말 실행하고 싶은 것들을 구현해 놓으면 됨.              
 
 
 📌 <strong><u>멀티 터치 스와이프 제스처 인식하기</u> : <u>`.numberOfTouchesRequired`</u></strong>              
@@ -105,7 +106,7 @@ swipeUp.numberOfTouchesRequired = numOfTouches
 
 📌 <strong><u>핀치 제스처 등록하기</u></strong>      
 
-: `UIPinchGestureRecognizer` 클래스 상수의 pinch를 선언 → 뷰 객체의 `addGestureRecognizer` 메서드를 사용해 핀치 제스처를 등록        
+`UIPinchGestureRecognizer` 클래스 상수의 pinch를 선언 → 뷰 객체의 `addGestureRecognizer` 메서드를 사용해 핀치 제스처를 등록        
 
    ```swift
 // 위쪽 방향의 스와이프 제스처 인식 부분 구현 
@@ -115,7 +116,7 @@ self.view.addGesture(pinch)
 
 📌 <strong><u>액션 메서드 구현하기</u></strong>    
 
-: 핀치 제스처를 행했을 때 실행하고 싶은 부분인 확대/축소를 구현한 메서드를 의미한다.   
+핀치 제스처를 행했을 때 실행하고 싶은 부분인 확대/축소를 구현한 메서드를 의미한다.   
 
    ```swift
 imgPinch.transform = imgPinch.transform.scaledBy(x: pinch.scale, y: pinch.scale)
