@@ -55,9 +55,9 @@ categories: TIL
 
 ##### 📑 **<u>Comparing Performance</u>**   
     
-1 / Execution time(CPU Time)
+* 1 / Execution time(CPU Time)
 
-Performance is determined by "execution time"
+* Performance is determined by "execution time"
 
 ##### 📑 **<u>CPU Clocking</u>** 
 
