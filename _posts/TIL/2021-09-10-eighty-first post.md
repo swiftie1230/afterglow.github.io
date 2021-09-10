@@ -76,9 +76,7 @@ Performance is determined by "execution time"
 	- Different Instruction might need different number of Cycles
 	- Average CPI affected by instruction mix
 
-* CPU Performance 
-
- = 1 / CPU Time
+* CPU Performance = 1 / CPU Time
  
  	* CPU Time = I.C * CPI / Clock Rate
 
