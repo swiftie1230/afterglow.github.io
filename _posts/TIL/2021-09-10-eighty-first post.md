@@ -126,7 +126,7 @@ _
 
 ㅋㅋㅋㅋㅋㅋㅋㅋ 여기 초보 개발자 완전 나잖아...🤦🏻‍♀️
 
-<iframe width="1283" height="565" src="https://youtube.com/shorts/X1_C4sLzePw?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="687" height="517" src="https://www.youtube.com/embed/X1_C4sLzePw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 <div class="notice--primary" markdown="1">
