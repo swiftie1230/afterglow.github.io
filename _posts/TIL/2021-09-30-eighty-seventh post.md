@@ -23,7 +23,7 @@ categories: TIL
 
 ### ☝🏻 <u>iOS_스터디</u>
 
-#### ✔️ **<u>iOS 꼼꼼한 재은씨 Ch 3 부분 공부</u> : [화면상의 객체를 제어하는 방법 : @IBOutlet 그리고 @IBAction](https://swiftie1230.github.io/ios_study/KomJae_3/)**     
+#### ✔️ **<u>iOS 꼼꼼한 재은씨 Ch 3 부분 공부</u> : [화면상의 객체를 제어하는 방법 : @IBOutlet 그리고 @IBAction 정리 링크](https://swiftie1230.github.io/ios_study/KomJae_3/)**     
 
 📌 **@IBOutlet과 @IBAction**  
 
