@@ -14,7 +14,7 @@ categories: Algorithm_Study
 So, before knowing the data structure(Algorithm), you should know about Time and Space complexity because of it you can analyze your algorithm that how fast and how efficient it is (It's very important concept)!
 </div>
 
-이번 겨울방학을 틈타, 알고리즘 로드맵 (이라고 할 수 있는 거겠지..?) 을 확인하다 윗글 보고 바로 <u>**시간복잡도**</u>와 <u>**공간복잡도**</u>부터 다시 시작하기로 했다.   
+이번 겨울방학을 틈타, 알고리즘 로드맵 (이라고 할 수 있는 거겠지..?) 을 확인하다 윗글 보고 바로 **<u>시간복잡도</u>**와 **<u>공간복잡도</u>**부터 다시 시작하기로 했다.   
 
 레츠고고 ╰(//´︶`//)╯♡
 
@@ -47,8 +47,8 @@ Time and space complexity depends on lots of things like hardware, operating sys
 
 알고리즘 간의 효율성 차이는 입력하는 데이터의 양이 적은 경우에는 무시해도 크게 상관이 없을 수 있지만, 그 양이 많아지면 무시할 수 없게 된다.
 
-그렇다면 과연 여기서 <u>**효율적인 알고리즘**</u>이란 무엇일까?     
-알고리즘이 수행을 시작하여 결과가 도출될 때까지 <u>**실행에 걸리는 시간이 짧고</u> 연산하는 컴퓨터 내의 메모리와 같은 <u>자원을 덜 사용하는 것</u>이 <u>효율적</u>이라고 할 수 있다**.
+그렇다면 과연 여기서 **<u>효율적인 알고리즘</u>**이란 무엇일까?     
+알고리즘이 수행을 시작하여 결과가 도출될 때까지 **<u>실행에 걸리는 시간이 짧고</u> 연산하는 컴퓨터 내의 메모리와 같은 <u>자원을 덜 사용하는 것</u>이 <u>효율적</u>이라고 할 수 있다**.
 
 ## 📌 동일한 알고리즘의 효율성에 따른 구분 
 
