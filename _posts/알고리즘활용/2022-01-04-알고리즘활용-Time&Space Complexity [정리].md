@@ -113,6 +113,6 @@ To denote asymptotic tight bound, we use Θ-notation. This notation represents t
 	
 	
 ###  # 출처	
-* [알고리즘 로드맵 사이트] (https://dev.to/suchitra_13/complete-roadmap-to-learn-data-structure-and-algorithms-1pka)
+* [알고리즘 로드맵 사이트](https://dev.to/suchitra_13/complete-roadmap-to-learn-data-structure-and-algorithms-1pka)
 * [원문 사이트](https://www.hackerearth.com/practice/basic-programming/complexity-analysis/time-and-space-complexity/tutorial/)     
 * [시간복잡도 및 공간복잡도 참고 사이트](https://madplay.github.io/post/time-complexity-space-complexity)
