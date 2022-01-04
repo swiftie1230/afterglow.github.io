@@ -1,5 +1,5 @@
 ---
-title: "[22.01.04] 알고리즘활용스터디 - 시간복잡도와 공간복잡도[정리]"
+title: "[22.01.04] 알고리즘활용스터디 - Time&Space Complexity[정리]"
 date: 2022-01-04 13:30:28 -0400
 toc: true
 toc_sticky: true
