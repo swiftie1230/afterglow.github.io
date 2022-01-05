@@ -200,7 +200,7 @@ List의 대표기능은 다음과 같다 :)
 
 <p align="center"><img width="634" alt="Screen Shot 2022-01-05 at 5 02 04 PM" src="https://user-images.githubusercontent.com/63195670/148181935-e6b7f444-bc24-49a0-812c-8b1b9d49f54c.png"></p>    
 
-🏹 Array List
+🏹 <strong><u>Array List</u></strong>
 
 Array List는 배열을 이용해서 리스트를 구현한 것을 의미한다.    
 - 장점 : 내부적으로 배열을 사용하기 때문에 인덱스를 이용해서 접근하는 것이 빠르다.   
@@ -212,7 +212,7 @@ Array List는 배열을 이용해서 리스트를 구현한 것을 의미한다.
 
 - 데이터 조회(가져오기) : 인덱스를 이용하여 데이터를 가져오고 싶을 때 Array로 구현한 리스트는 속도가 매우 빠르다. (메모리 상의 주소를 정확하게 참고해서 가져오기 때문이다.).   
 
-🏹 Linked List
+🏹 <strong><u>Linked List</u></strong>
 
 Linked List는 노드의 연결을 이용해서 리스트를 구현한 것을 의미한다.    
 - 장점 : 데이터의 추가와 삭제 속도가 빠르다.   
