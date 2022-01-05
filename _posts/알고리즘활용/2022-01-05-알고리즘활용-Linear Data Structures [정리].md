@@ -140,52 +140,52 @@ List의 대표기능은 다음과 같다 :)
 
 ##### 🤦🏻‍♀️ 언어별 list 지원 비교
 
-**_"C"_**
+- **_"C"_**
 
-- 리스트를 지원하지 않는다. 대신 배열을 지원한다.   
-- 리스트를 사용하려면 직접 만들거나 라이브러리를 사용해야한다. (따라서 리스트에 대한 깊은 이해와 안목이 필요함)
-
-
-**_"Python"_**
-
-- 기본적으로 리스트를 제공하며, 배열은 제공하지 않는다.
-- 파이썬에서는 리스트가 배열이다.
-- 파이썬의 리스트는 크기가 가변적이고, 어떤 원소 타입이던 저장할 수 있다는 장점을 가진다. 대신 C의 array 보다 메모리를 더 많이 필요로 한다는 단점이 있다.
-
-```python
-numbers = [10, 20, 30, 40, 50]
-numbers.pop(3) # 40 / 3번째 인덱스 값 리턴 후 삭제
-for number in numbers:
-	print(number) # 10, 20, 30, 50
-```
+  - 리스트를 지원하지 않는다. 대신 배열을 지원한다.   
+  - 리스트를 사용하려면 직접 만들거나 라이브러리를 사용해야한다. (따라서 리스트에 대한 깊은 이해와 안목이 필요함)
 
 
-**_"Java"_**
+- **_"Python"_**
 
-- 자바는 배열과 리스트를 모두 지원하고, 두 가지가 완전히 분리되어 있다.
-- **배열은 배열의 장점이, 리스트는 리스트의 장점이 있기 때문에 개발자가 원하는대로 직접 선택가능**하다.
-- java는 javascript, python에 비해서 자료구조에 대해 더 알아야 할 필요성이 있지만, 그만큼 개발자에게 더 큰 자유도가 주어진다.
-- 자바는 2가지 형태의 리스트를 지원한다.
-	- LinkedList / ArrayList
-	- 똑같은 기능(메소드)를 가진 리스트가 2가지 존재한다.
-	- 각각의 장단점이 분명하다.
+  - 기본적으로 리스트를 제공하며, 배열은 제공하지 않는다.
+  - 파이썬에서는 리스트가 배열이다.
+  - 파이썬의 리스트는 크기가 가변적이고, 어떤 원소 타입이던 저장할 수 있다는 장점을 가진다. 대신 C의 array 보다 메모리를 더 많이 필요로 한다는 단점이 있다.
 
-```java
-// 배열 - 추가, 삭제가 어렵다. 직접 구현해야한다.
-int[] numbers = {10,20,30,40,50};
+  ```python
+  numbers = [10, 20, 30, 40, 50]
+  numbers.pop(3) # 40 / 3번째 인덱스 값 리턴 후 삭제
+  for number in numbers:
+    print(number) # 10, 20, 30, 50
+  ```
 
-// 리스트 (ArrayList)
-ArrayList numbers = new ArrayList();
 
-numbers.add(10); // 추가
-numbers.remove(0); // 삭제
+- **_"Java"_**
 
-// 리스트 (LinkedList)
-LinkedList numbers = new LinkedList();
+  - 자바는 배열과 리스트를 모두 지원하고, 두 가지가 완전히 분리되어 있다.
+  - **배열은 배열의 장점이, 리스트는 리스트의 장점이 있기 때문에 개발자가 원하는대로 직접 선택가능**하다.
+  - java는 javascript, python에 비해서 자료구조에 대해 더 알아야 할 필요성이 있지만, 그만큼 개발자에게 더 큰 자유도가 주어진다.
+  - 자바는 2가지 형태의 리스트를 지원한다.
+	  - LinkedList / ArrayList
+	  - 똑같은 기능(메소드)를 가진 리스트가 2가지 존재한다.
+	  - 각각의 장단점이 분명하다.
 
-numbers.add(10); // 추가
-numbers.remove(0); // 삭제
-```
+  ```java
+  // 배열 - 추가, 삭제가 어렵다. 직접 구현해야한다.
+  int[] numbers = {10,20,30,40,50};
+
+  // 리스트 (ArrayList)
+  ArrayList numbers = new ArrayList();
+
+  numbers.add(10); // 추가
+  numbers.remove(0); // 삭제
+
+  // 리스트 (LinkedList)
+  LinkedList numbers = new LinkedList();
+
+  numbers.add(10); // 추가
+  numbers.remove(0); // 삭제
+  ```
 
 <div class="notice--primary" markdown="1">
 🌝 <strong><u>여기서 잠깐!</u> : <u>Java - ArrayList / LinkedList</u></strong>   
@@ -198,7 +198,7 @@ numbers.remove(0); // 삭제
 
 - 이러한 판단을 하기 위해서는 직접 Data structure를 구현해서 사용하지 않더라도 내부적인 메커니즘을 이해할 필요가 있다.    
 
-<img width="634" alt="Screen Shot 2022-01-05 at 5 02 04 PM" src="https://user-images.githubusercontent.com/63195670/148181935-e6b7f444-bc24-49a0-812c-8b1b9d49f54c.png">    
+<p align="center"><img width="634" alt="Screen Shot 2022-01-05 at 5 02 04 PM" src="https://user-images.githubusercontent.com/63195670/148181935-e6b7f444-bc24-49a0-812c-8b1b9d49f54c.png"></p>    
 
 🏹 Array List
 
