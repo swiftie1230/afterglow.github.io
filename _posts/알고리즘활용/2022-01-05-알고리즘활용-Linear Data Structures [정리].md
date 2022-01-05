@@ -22,10 +22,10 @@ The primitive type of data structure is a kind of data structure that stores the
 
 The non-primitive data structures are used to store the collection of elements. This data structure can be further categorized into   
 
-1. <strong><u>Linear data structure (선형구조)</u></strong> 저장되는 자료의 전 후 관계가 1:1    
-2. <strong><u>Non-Linear data structure (비선형구조) : 데이터 항목 사의의 관계가 1:n 또는 n:m</u></strong>    
+1. <strong><u>Linear data structure (선형구조)</u></strong> : 저장되는 자료의 전 후 관계가 1:1    
+2. <strong><u>Non-Linear data structure (비선형구조)</u></strong> : 데이터 항목 사의의 관계가 1:n 또는 n:m    
 
-<img width="645" alt="Screen Shot 2022-01-05 at 5 02 15 PM" src="https://user-images.githubusercontent.com/63195670/148181944-02411bc3-b487-492b-b84d-5182e9c75a2e.png">   
+<p align="center"><img width="645" alt="Screen Shot 2022-01-05 at 5 02 15 PM" src="https://user-images.githubusercontent.com/63195670/148181944-02411bc3-b487-492b-b84d-5182e9c75a2e.png"></p>   
 
 </div>
 
