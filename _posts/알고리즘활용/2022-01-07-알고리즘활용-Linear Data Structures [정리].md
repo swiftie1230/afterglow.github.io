@@ -1,5 +1,5 @@
 ---
-title: "[22.01.05] 알고리즘활용스터디 - Linear Data Structures[정리]"
+title: "[22.01.07] 알고리즘활용스터디 - Linear Data Structures[정리]"
 date: 2022-01-07 11:00:28 -0400
 toc: true
 toc_sticky: true
