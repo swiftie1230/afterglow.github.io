@@ -113,7 +113,7 @@ Also, **data is <u>not arranged in sequence</u>, and <u>cannot be traversed in a
 - **각 노드가 <u>최대 두 개의 자식</u>**을 갖는 트리
 - 모든 트리가 이진 트리는 아니다.
 - 이진 트리 순회 
-	- 중위 순회(in-order traversal) 
+	- 중위 순회(in-order traversal)    
 	<img width="243" alt="Screen Shot 2022-01-11 at 7 02 43 PM" src="https://user-images.githubusercontent.com/63195670/148922063-934b0fa7-0af9-40a1-a0c3-db3275e41dad.png">
 
 		```
@@ -127,7 +127,7 @@ Also, **data is <u>not arranged in sequence</u>, and <u>cannot be traversed in a
 		```		
 
 
-	- 전위 순회(pre-order traversal)
+	- 전위 순회(pre-order traversal)    
 	<img width="245" alt="Screen Shot 2022-01-11 at 6 54 43 PM" src="https://user-images.githubusercontent.com/63195670/148920817-1eb14c14-d318-4169-9209-04bf5e698a9b.png">
 		
 		```
@@ -140,7 +140,7 @@ Also, **data is <u>not arranged in sequence</u>, and <u>cannot be traversed in a
 		}
 		```
 			
-	- 후위 순회(post-order traversal)
+	- 후위 순회(post-order traversal)    
 	<img width="285" alt="Screen Shot 2022-01-11 at 7 19 10 PM" src="https://user-images.githubusercontent.com/63195670/148924624-b5402cdd-2721-4bcd-9b38-fe44d63cf639.png">
 		
 		```
