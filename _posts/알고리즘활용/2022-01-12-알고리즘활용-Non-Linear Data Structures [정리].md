@@ -230,7 +230,7 @@ Also, **data is <u>not arranged in sequence</u>, and <u>cannot be traversed in a
 	- 중위 순회(in-order traversal)    
 	<img width="243" alt="Screen Shot 2022-01-11 at 7 02 43 PM" src="https://user-images.githubusercontent.com/63195670/148922063-934b0fa7-0af9-40a1-a0c3-db3275e41dad.png">
 
-		```C
+		```c++
 		void inOrderTraversal(TreeNode node) {
 	  		if(node != null) {
 	   			inOrderTraversal(node.left);	// 왼쪽
@@ -244,7 +244,7 @@ Also, **data is <u>not arranged in sequence</u>, and <u>cannot be traversed in a
 	- 전위 순회(pre-order traversal)   
 	<img width="245" alt="Screen Shot 2022-01-11 at 6 54 43 PM" src="https://user-images.githubusercontent.com/63195670/148920817-1eb14c14-d318-4169-9209-04bf5e698a9b.png">
 		
-		```C
+		```c++
 		void preOrderTraversal(TreeNode node) {
   			if(node != null) {
    				visit(node);	// 중앙
@@ -257,7 +257,7 @@ Also, **data is <u>not arranged in sequence</u>, and <u>cannot be traversed in a
 	- 후위 순회(post-order traversal)   
 	<img width="285" alt="Screen Shot 2022-01-11 at 7 19 10 PM" src="https://user-images.githubusercontent.com/63195670/148924624-b5402cdd-2721-4bcd-9b38-fe44d63cf639.png">
 		
-		```C
+		```c++
 		void postOrderTraversal(TreeNode node) {
 	  		if(node != null) {
 	   			postOrderTraversal(node.left);	// 왼쪽
@@ -457,7 +457,7 @@ Also, **data is <u>not arranged in sequence</u>, and <u>cannot be traversed in a
 
 ##### 🔮 <u>c언어를 이용한 힙(heap)의 구현</u>
 
-```C
+```c++
 # define MAX_ELEMENT 200 // 힙 안에 저장된 요소의 개수
 	
 typedef struct{
@@ -487,7 +487,7 @@ HeapType heap1;
 
 ##### 🔮 <u>c언어를 이용한 최대 힙(max heap) 삽입 연산</u>
 
-```C
+```c++
 /* 현재 요소의 개수가 heap_size인 힙 h에 item을 삽입한다. */
 // 최대 힙(max heap) 삽입 함수
 void insert_max_heap(HeapType *h, element item){
@@ -541,7 +541,7 @@ for (int i=heapSize; i>1; i/=2) {
 
 ##### 🔮 <u>c언어를 이용한 최대 힙(max heap) 삽입 연산</u>
 
-```C
+```c++
 // 최대 힙(max heap) 삭제 함수
 element delete_max_heap(HeapType *h){
   int parent, child;
