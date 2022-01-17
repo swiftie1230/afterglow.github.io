@@ -1,6 +1,6 @@
 ---
-title: "[22.01.17] 알고리즘활용스터디 - Sorting Algorithms[정리] : 아직 진행중 ➰"
-date: 2022-01-17 11:30:28 -0400
+title: "[22.01.17] 알고리즘활용스터디 - Sorting Algorithms[정리]"
+date: 2022-01-17 15:54:28 -0400
 toc: true
 toc_sticky: true
 categories: Algorithm_Study
