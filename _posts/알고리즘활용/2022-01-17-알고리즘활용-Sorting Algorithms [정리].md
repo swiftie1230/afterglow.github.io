@@ -681,5 +681,5 @@ Sorting Algorithm은 여기서 끝 〰️
 	
 ### 🔗 출처	
 * [Sorting Algorithms 참고 사이트 1](https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/practice-problems/)
-* [Sorting Algorithms 참고 사이트 2](https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort.html)
+* [Sorting Algorithms 참고 사이트 2](https://gmlwjd9405.github.io)
 * 2학년 1학기 때 배운 자료구조 자료..! 
