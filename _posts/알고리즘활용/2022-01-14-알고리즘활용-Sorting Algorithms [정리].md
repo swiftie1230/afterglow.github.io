@@ -669,7 +669,7 @@ The list of size N is divided into a max of logN parts, and the merging of all s
 
 
 <div class="notice--primary" markdown="1">
-🌝 <strong><u>여기서 잠깐!</u> : <u>정렬 알고리즘 시간복잡도 비교</u></strong>   
+🌝 <strong><u>여기서 잠깐!</u> : <u>정렬 알고리즘 시간복잡도 비교</u></strong>       
 
 <img width="555" alt="Screen Shot 2022-01-17 at 1 19 30 PM" src="https://user-images.githubusercontent.com/63195670/149707448-e51a68ea-e42b-4d91-ada2-d78b6984ef1d.png">    
 
