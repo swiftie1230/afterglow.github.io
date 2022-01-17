@@ -659,8 +659,6 @@ https://gmlwjd9405.github.io/2018/05/08/algorithm-shell-sort.html
 
 #### 🔮 Performance 
 
-The list of size N is divided into a max of logN parts, and the merging of all sublists into a single list takes O(N) time, the worst case run time of this algorithm is <strong><u>O(N*logN)</u></strong>
-
 시간복잡도를 계산한다면,
 
 - 평균: T(n) = **<u>O(n^1.5)</u>**
