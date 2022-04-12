@@ -2,10 +2,10 @@
 main:
   - title: "About Me"
     url: https://github.com/swiftie1230
-  - title: "Categories"
-    url: /categories/
   - title: "Memory Storage ✍🏻"
     url: https://www.inflike.com/after._.glow
+  - title: "Categories"
+    url: /categories/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
