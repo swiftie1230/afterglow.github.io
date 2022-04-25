@@ -1,6 +1,6 @@
 ---
 title: "[22.04.25] Letter for you, Grandpa"
-date: 2022-04-25 01:45:28 -0400
+date: 2022-04-24 23:45:28 -0400
 toc: true
 toc_sticky: true
 categories: My_Scribbles
