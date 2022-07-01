@@ -65,10 +65,10 @@ categories: Algorithm_Study
 일단 input 2D array 먼저!        
 
 ```python
-inputs = [['S', 'J'], ['S', 'I'], ['J', 'Mex'], ['J', 'Mor'], ['Mor', 'H'], ['Mor', 'Jap'], ['Mex', 'Jap'], ['Jap', 'E'], ['Jap', 'C'], ['Jap', 'F'], ['I', 'F']]
+inputs = [["math1", "math2"], ["math0", "math2"], ["math2", "math3"], ["math0", "math4"], ["math3", "math5"], ["math4", "math5"]]
 ```
 
-우리는 이 문제를 해결하기 위해 네 가지 함수를 작성할 것이다! `solution`, `topological_sort`, `BFS`, 그리고 `find_the_source`까지.          
+우리는 이 문제를 해결하기 위해 네 가지 함수를 작성할 것이다! `solutionAdvanced`, `topologicalAdvanced`, `BFSAdvanced`, 그리고 `find_the_source`까지.          
 
 **`solutionAdvanced`은 우리가 말 그대로 이 문제를 수행하기 위해 처음 부르는 함수**. 일반 프로그램들의 `main`함수라고 생각하면 이해하기 쉬울 것.        
 
