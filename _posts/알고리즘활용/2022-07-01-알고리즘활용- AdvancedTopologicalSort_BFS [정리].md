@@ -1,6 +1,6 @@
 ---
 title: "[22.07.01] 알고리즘중급스터디 sixth 정기 session - Advanced Topological Sort + BFS"
-date: 2022-07-01 01:00:28 -0400
+date: 2022-06-30 13:00:28 -0400
 toc: true
 toc_sticky: true
 categories: Algorithm_Study
