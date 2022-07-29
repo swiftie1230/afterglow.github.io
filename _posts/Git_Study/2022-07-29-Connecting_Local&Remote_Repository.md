@@ -87,7 +87,7 @@ categories: Git_Study
 
 1. `git add .`
 
-2. `git commit -m "[메세지 내용]"` 명령어를 입력한다. (해당 폴더를 git 로컬저장소로 설정하는 명령어라고 생각!)
+2. `git commit -m "[메세지 내용]"` 명령어를 입력한다.
 
 3. `git push origin main`
 
